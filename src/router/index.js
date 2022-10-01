@@ -13,17 +13,25 @@ const router = createRouter({
       },
     },
     {
-      path: '/about',
-      name: 'aboutView',
-      component: () => import('@/views/AboutView.vue'),
+      path: '/getstarted',
+      name: 'getstartedView',
+      component: () => import('@/views/getstarted/00View.vue'),
       meta: {
-        title: 'About',
+        title: 'Getting Started',
+      },
+    },
+    {
+      path: '/getstarted/installation',
+      name: 'installationView',
+      component: () => import('@/views/getstarted/01InstallationView.vue'),
+      meta: {
+        title: 'Installation',
       },
     },
     {
       path: '/flexgrid',
       name: 'flexgridView',
-      component: () => import('@/views/FlexGridView.vue'),
+      component: () => import('@/views/flexgrid/00View.vue'),
       meta: {
         title: 'Flexbox & Grid',
       },
@@ -31,7 +39,7 @@ const router = createRouter({
     {
       path: '/flexgrid/flexbasis',
       name: 'flexbasisView',
-      component: () => import('@/views/FlexBasisView.vue'),
+      component: () => import('@/views/flexgrid/01FlexBasisView.vue'),
       meta: {
         title: 'Flex Basis',
       },
