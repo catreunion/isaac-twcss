@@ -29,5 +29,21 @@ const items = [
   { name: 'Order', href: '/flexgrid/order' },
   { name: 'Grid Template Columns', href: '/flexgrid/gridtemplatecolumns' },
   { name: 'Grid Column Start End', href: '/flexgrid/gridcolumnstartend' },
+
+  { name: 'Grid Template Rows', href: '/flexgrid/gridtemplaterows' },
+  { name: 'Grid Row Start / End', href: '/flexgrid/gridrowstartend' },
+  { name: 'Grid Auto Flow', href: '/flexgrid/gridautoflow' },
+  { name: 'Grid Auto Columns', href: '/flexgrid/gridautocolumns' },
+  { name: 'Grid Auto Rows', href: '/flexgrid/gridautorows' },
+  { name: 'Gap', href: '/flexgrid/gap' },
+  { name: 'Justify Content', href: '/flexgrid/justifycontent' },
+  { name: 'Justify Items', href: '/flexgrid/justifyitems' },
+  { name: 'Justify Self', href: '/flexgrid/justifyself' },
+  { name: 'Align Content', href: '/flexgrid/aligncontent' },
+  { name: 'Align Items', href: '/flexgrid/alignitems' },
+  { name: 'Align Self', href: '/flexgrid/alignself' },
+  { name: 'Place Content', href: '/flexgrid/placecontent' },
+  { name: 'Place Items', href: '/flexgrid/placeitems' },
+  { name: 'Place Self', href: '/flexgrid/placeself' },
 ]
 </script>

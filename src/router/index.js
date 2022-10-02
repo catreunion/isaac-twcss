@@ -352,11 +352,131 @@ const router = createRouter({
         title: 'Grid Column Start End',
       },
     },
+    {
+      path: '/flexgrid/gridtemplaterows',
+      name: 'gridtemplaterowsView',
+      component: () => import('@/views/flexgrid/10GridTemplateRowsView.vue'),
+      meta: {
+        title: 'Grid Template Rows',
+      },
+    },
+    {
+      path: '/flexgrid/gridrowstartend',
+      name: 'gridrowstartendView',
+      component: () => import('@/views/flexgrid/11GridRowStartEndView.vue'),
+      meta: {
+        title: 'Grid Row Start End',
+      },
+    },
+    {
+      path: '/flexgrid/gridautoflow',
+      name: 'gridautoflowView',
+      component: () => import('@/views/flexgrid/12GridAutoFlowView.vue'),
+      meta: {
+        title: 'Grid Auto Flow',
+      },
+    },
+    {
+      path: '/flexgrid/gridautocolumns',
+      name: 'gridautocolumnsView',
+      component: () => import('@/views/flexgrid/13GridAutoColumnsView.vue'),
+      meta: {
+        title: 'Grid Auto Columns',
+      },
+    },
+    {
+      path: '/flexgrid/gridautorows',
+      name: 'gridautorowsView',
+      component: () => import('@/views/flexgrid/14GridAutoRowsView.vue'),
+      meta: {
+        title: 'Grid Auto Rows',
+      },
+    },
+    {
+      path: '/flexgrid/gap',
+      name: 'gapView',
+      component: () => import('@/views/flexgrid/15GapView.vue'),
+      meta: {
+        title: 'Gap',
+      },
+    },
+    {
+      path: '/flexgrid/justifycontent',
+      name: 'justifycontentView',
+      component: () => import('@/views/flexgrid/16JustifyContentView.vue'),
+      meta: {
+        title: 'Justify Content',
+      },
+    },
+    {
+      path: '/flexgrid/justifyitems',
+      name: 'justifyitemsView',
+      component: () => import('@/views/flexgrid/17JustifyItemsView.vue'),
+      meta: {
+        title: 'Justify Items',
+      },
+    },
+    {
+      path: '/flexgrid/justifyself',
+      name: 'justifyselfView',
+      component: () => import('@/views/flexgrid/18JustifySelfView.vue'),
+      meta: {
+        title: 'Justify Self',
+      },
+    },
+    {
+      path: '/flexgrid/aligncontent',
+      name: 'aligncontentView',
+      component: () => import('@/views/flexgrid/19AlignContentView.vue'),
+      meta: {
+        title: 'Align Content',
+      },
+    },
+    {
+      path: '/flexgrid/alignitems',
+      name: 'alignitemsView',
+      component: () => import('@/views/flexgrid/20AlignItemsView.vue'),
+      meta: {
+        title: 'Align Items',
+      },
+    },
+    {
+      path: '/flexgrid/alignself',
+      name: 'alignselfView',
+      component: () => import('@/views/flexgrid/21AlignSelfView.vue'),
+      meta: {
+        title: 'Align Self',
+      },
+    },
+    {
+      path: '/flexgrid/placecontent',
+      name: 'placecontentView',
+      component: () => import('@/views/flexgrid/22PlaceContentView.vue'),
+      meta: {
+        title: 'Place Content',
+      },
+    },
+    {
+      path: '/flexgrid/placeitems',
+      name: 'placeitemsView',
+      component: () => import('@/views/flexgrid/23PlaceItemsView.vue'),
+      meta: {
+        title: 'Place Items',
+      },
+    },
+    {
+      path: '/flexgrid/placeself',
+      name: 'placeselfView',
+      component: () => import('@/views/flexgrid/24PlaceSelfView.vue'),
+      meta: {
+        title: 'Place Self',
+      },
+    },
   ],
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = `Learn TW | ${to.params.state ? `${to.params.city}` : to.meta.title}`
+  document.title = `TW | ${to.params.state ? `${to.params.city}` : to.meta.title}`
   next()
 })
 
