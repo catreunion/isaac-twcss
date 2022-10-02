@@ -19,5 +19,9 @@
 </template>
 
 <script setup>
-const items = [{ name: 'Configuration', href: '/customization/configuration' }]
+const items = [
+  { name: 'Configuration', href: '/customization/configuration' },
+  { name: 'Content', href: '/customization/content' },
+  { name: 'Theme', href: '/customization/theme' },
+]
 </script>

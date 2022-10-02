@@ -41,9 +41,25 @@ const router = createRouter({
     {
       path: '/customization/configuration',
       name: 'configurationView',
-      component: () => import('@/views/customization/01configurationView.vue'),
+      component: () => import('@/views/customization/01ConfigurationView.vue'),
       meta: {
         title: 'Configuration',
+      },
+    },
+    {
+      path: '/customization/content',
+      name: 'contentView',
+      component: () => import('@/views/customization/02ContentView.vue'),
+      meta: {
+        title: 'Content',
+      },
+    },
+    {
+      path: '/customization/theme',
+      name: 'themeView',
+      component: () => import('@/views/customization/03ThemeView.vue'),
+      meta: {
+        title: 'Theme',
       },
     },
     // Flexbox & Grid
