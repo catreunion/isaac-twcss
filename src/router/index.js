@@ -62,6 +62,46 @@ const router = createRouter({
         title: 'Theme',
       },
     },
+    {
+      path: '/customization/screens',
+      name: 'screensView',
+      component: () => import('@/views/customization/04ScreensView.vue'),
+      meta: {
+        title: 'Screens',
+      },
+    },
+    {
+      path: '/customization/colors',
+      name: 'colorsView',
+      component: () => import('@/views/customization/05ColorsView.vue'),
+      meta: {
+        title: 'Colors',
+      },
+    },
+    {
+      path: '/customization/spacing',
+      name: 'spacingView',
+      component: () => import('@/views/customization/06SpacingView.vue'),
+      meta: {
+        title: 'Spacing',
+      },
+    },
+    {
+      path: '/customization/plugins',
+      name: 'pluginsView',
+      component: () => import('@/views/customization/07PluginsView.vue'),
+      meta: {
+        title: 'Plugins',
+      },
+    },
+    {
+      path: '/customization/presets',
+      name: 'presetsView',
+      component: () => import('@/views/customization/08PresetsView.vue'),
+      meta: {
+        title: 'Presets',
+      },
+    },
     // Flexbox & Grid
     {
       path: '/flexgrid',

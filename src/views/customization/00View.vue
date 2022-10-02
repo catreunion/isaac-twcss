@@ -23,5 +23,10 @@ const items = [
   { name: 'Configuration', href: '/customization/configuration' },
   { name: 'Content', href: '/customization/content' },
   { name: 'Theme', href: '/customization/theme' },
+  { name: 'Screens', href: '/customization/screens' },
+  { name: 'Colors', href: '/customization/colors' },
+  { name: 'Spacing', href: '/customization/spacing' },
+  { name: 'Plugins', href: '/customization/plugins' },
+  { name: 'Presets', href: '/customization/presets' },
 ]
 </script>
