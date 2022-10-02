@@ -288,6 +288,70 @@ const router = createRouter({
         title: 'Flex Basis',
       },
     },
+    {
+      path: '/flexgrid/flexdirection',
+      name: 'flexdirectionView',
+      component: () => import('@/views/flexgrid/02FlexDirectionView.vue'),
+      meta: {
+        title: 'Flex Direction',
+      },
+    },
+    {
+      path: '/flexgrid/flexwrap',
+      name: 'flexwrapView',
+      component: () => import('@/views/flexgrid/03FlexWrapView.vue'),
+      meta: {
+        title: 'Flex Wrap',
+      },
+    },
+    {
+      path: '/flexgrid/flex',
+      name: 'flexView',
+      component: () => import('@/views/flexgrid/04FlexView.vue'),
+      meta: {
+        title: 'Flex',
+      },
+    },
+    {
+      path: '/flexgrid/flexbrow',
+      name: 'flexbrowView',
+      component: () => import('@/views/flexgrid/05FlexGrowView.vue'),
+      meta: {
+        title: 'Flex Grow',
+      },
+    },
+    {
+      path: '/flexgrid/flexshrink',
+      name: 'flexshrinkView',
+      component: () => import('@/views/flexgrid/06FlexShrinkView.vue'),
+      meta: {
+        title: 'Flex Shrink',
+      },
+    },
+    {
+      path: '/flexgrid/order',
+      name: 'orderView',
+      component: () => import('@/views/flexgrid/07OrderView.vue'),
+      meta: {
+        title: 'Order',
+      },
+    },
+    {
+      path: '/flexgrid/gridtemplatecolumns',
+      name: 'gridtemplatecolumnsView',
+      component: () => import('@/views/flexgrid/08GridTemplateColumnsView.vue'),
+      meta: {
+        title: 'Grid Template Columns',
+      },
+    },
+    {
+      path: '/flexgrid/gridcolumnstartend',
+      name: 'gridcolumnstartendView',
+      component: () => import('@/views/flexgrid/09GridColumnStartEndView.vue'),
+      meta: {
+        title: 'Grid Column Start End',
+      },
+    },
   ],
 })
 

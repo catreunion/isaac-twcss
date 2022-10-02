@@ -19,5 +19,15 @@
 </template>
 
 <script setup>
-const items = [{ name: 'Flex Basis', href: '/flexgrid/flexbasis' }]
+const items = [
+  { name: 'Flex Basis', href: '/flexgrid/flexbasis' },
+  { name: 'Flex Direction', href: '/flexgrid/flexdirection' },
+  { name: 'Flex Wrap', href: '/flexgrid/flexwrap' },
+  { name: 'Flex', href: '/flexgrid/flex' },
+  { name: 'Flex Grow', href: '/flexgrid/flexbrow' },
+  { name: 'Flex Shrink', href: '/flexgrid/flexshrink' },
+  { name: 'Order', href: '/flexgrid/order' },
+  { name: 'Grid Template Columns', href: '/flexgrid/gridtemplatecolumns' },
+  { name: 'Grid Column Start End', href: '/flexgrid/gridcolumnstartend' },
+]
 </script>
