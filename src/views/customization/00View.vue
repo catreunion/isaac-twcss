@@ -1,9 +1,5 @@
 <template>
   <div class="flex flex-col overflow-y-auto border-r border-gray-200 bg-white pt-5 pb-4">
-    <RouterLink :to="{ name: 'homeView' }">
-      <p>HOME</p>
-    </RouterLink>
-
     <div class="mt-5 flex flex-grow flex-col">
       <nav class="flex-1 space-y-1 bg-white" aria-label="Sidebar">
         <RouterLink
@@ -23,11 +19,5 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-
-const items = [
-  { name: 'Getting Started', href: '/getstarted' },
-  { name: 'Customization', href: '/customization' },
-  { name: 'Flexbox & Grid', href: '/flexgrid' },
-]
+const items = [{ name: 'Configuration', href: '/customization/configuration' }]
 </script>

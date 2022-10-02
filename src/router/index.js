@@ -12,6 +12,7 @@ const router = createRouter({
         title: 'Home',
       },
     },
+    // Getting Started
     {
       path: '/getstarted',
       name: 'getstartedView',
@@ -28,6 +29,24 @@ const router = createRouter({
         title: 'Installation',
       },
     },
+    // Configuration
+    {
+      path: '/customization',
+      name: 'customizationView',
+      component: () => import('@/views/customization/00View.vue'),
+      meta: {
+        title: 'Configuration',
+      },
+    },
+    {
+      path: '/customization/configuration',
+      name: 'configurationView',
+      component: () => import('@/views/customization/01configurationView.vue'),
+      meta: {
+        title: 'Configuration',
+      },
+    },
+    // Flexbox & Grid
     {
       path: '/flexgrid',
       name: 'flexgridView',
