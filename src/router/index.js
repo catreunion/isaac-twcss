@@ -102,7 +102,47 @@ const router = createRouter({
         title: 'Presets',
       },
     },
-    // Flexbox & Grid
+    // Layout
+    {
+      path: '/layout',
+      name: 'layoutView',
+      component: () => import('@/views/layout/00View.vue'),
+      meta: {
+        title: 'Layout',
+      },
+    },
+    {
+      path: '/layout/aspectratio',
+      name: 'aspectratioView',
+      component: () => import('@/views/layout/01AspectRatioView.vue'),
+      meta: {
+        title: 'Aspect Ratio',
+      },
+    },
+    {
+      path: '/layout/container',
+      name: 'containerView',
+      component: () => import('@/views/layout/02ContainerView.vue'),
+      meta: {
+        title: 'Container',
+      },
+    },
+    {
+      path: '/layout/columns',
+      name: 'columnsView',
+      component: () => import('@/views/layout/03ColumnsView.vue'),
+      meta: {
+        title: 'Columns',
+      },
+    },
+    {
+      path: '/layout/breakafter',
+      name: 'breakafterView',
+      component: () => import('@/views/layout/04BreakAfterView.vue'),
+      meta: {
+        title: 'Break After',
+      },
+    }, // Flexbox & Grid
     {
       path: '/flexgrid',
       name: 'flexgridView',
