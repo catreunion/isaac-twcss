@@ -142,7 +142,136 @@ const router = createRouter({
       meta: {
         title: 'Break After',
       },
-    }, // Flexbox & Grid
+    },
+    {
+      path: '/layout/breakbefore',
+      name: 'breakbeforeView',
+      component: () => import('@/views/layout/05BreakBeforeView.vue'),
+      meta: {
+        title: 'Break Before',
+      },
+    },
+    {
+      path: '/layout/breakinside',
+      name: 'breakinsideView',
+      component: () => import('@/views/layout/06BreakInsideView.vue'),
+      meta: {
+        title: 'Break Inside',
+      },
+    },
+    {
+      path: '/layout/boxdecorationbreak',
+      name: 'boxdecorationbreakView',
+      component: () => import('@/views/layout/07BoxDecorationBreakView.vue'),
+      meta: {
+        title: 'Box Decoration Break',
+      },
+    },
+    {
+      path: '/layout/boxsizing',
+      name: 'boxsizingView',
+      component: () => import('@/views/layout/08BoxSizingView.vue'),
+      meta: {
+        title: 'Box Sizing',
+      },
+    },
+    {
+      path: '/layout/display',
+      name: 'displayView',
+      component: () => import('@/views/layout/09DisplayView.vue'),
+      meta: {
+        title: 'Display',
+      },
+    },
+    {
+      path: '/layout/floats',
+      name: 'floatsView',
+      component: () => import('@/views/layout/10FloatsView.vue'),
+      meta: {
+        title: 'Floats',
+      },
+    },
+    {
+      path: '/layout/clear',
+      name: 'clearView',
+      component: () => import('@/views/layout/11ClearView.vue'),
+      meta: {
+        title: 'Clear',
+      },
+    },
+    {
+      path: '/layout/isolation',
+      name: 'isolationView',
+      component: () => import('@/views/layout/12IsolationView.vue'),
+      meta: {
+        title: 'Isolation',
+      },
+    },
+    {
+      path: '/layout/objectfit',
+      name: 'objectfitView',
+      component: () => import('@/views/layout/13ObjectFitView.vue'),
+      meta: {
+        title: 'Object Fit',
+      },
+    },
+    {
+      path: '/layout/objectposition',
+      name: 'objectpositionView',
+      component: () => import('@/views/layout/14ObjectPositionView.vue'),
+      meta: {
+        title: 'Object Position',
+      },
+    },
+    {
+      path: '/layout/overflow',
+      name: 'overflowView',
+      component: () => import('@/views/layout/15OverflowView.vue'),
+      meta: {
+        title: 'Overflow',
+      },
+    },
+    {
+      path: '/layout/overscrollbehavior',
+      name: 'overscrollbehaviorView',
+      component: () => import('@/views/layout/16OverscrollBehaviorView.vue'),
+      meta: {
+        title: 'Overscroll Behavior',
+      },
+    },
+    {
+      path: '/layout/position',
+      name: 'positionView',
+      component: () => import('@/views/layout/17PositionView.vue'),
+      meta: {
+        title: 'Position',
+      },
+    },
+    {
+      path: '/layout/trbl',
+      name: 'trblView',
+      component: () => import('@/views/layout/18TopRightBottomLeftView.vue'),
+      meta: {
+        title: 'Top Right Bottom Left',
+      },
+    },
+    {
+      path: '/layout/visibility',
+      name: 'visibilityView',
+      component: () => import('@/views/layout/19VisibilityView.vue'),
+      meta: {
+        title: 'Visibility',
+      },
+    },
+    {
+      path: '/layout/zindex',
+      name: 'zindexView',
+      component: () => import('@/views/layout/20ZIndexView.vue'),
+      meta: {
+        title: 'Z-Index',
+      },
+    },
+    // Flexbox & Grid
     {
       path: '/flexgrid',
       name: 'flexgridView',
