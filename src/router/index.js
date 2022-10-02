@@ -12,7 +12,7 @@ const router = createRouter({
         title: 'Home',
       },
     },
-    // Getting Started
+    /////////////////////////////////////////////////// Getting Started
     {
       path: '/getstarted',
       name: 'getstartedView',
@@ -29,7 +29,7 @@ const router = createRouter({
         title: 'Installation',
       },
     },
-    // Configuration
+    /////////////////////////////////////////////////// Configuration
     {
       path: '/customization',
       name: 'customizationView',
@@ -102,7 +102,7 @@ const router = createRouter({
         title: 'Presets',
       },
     },
-    // Layout
+    /////////////////////////////////////////////////// Layout
     {
       path: '/layout',
       name: 'layoutView',
@@ -271,7 +271,7 @@ const router = createRouter({
         title: 'Z-Index',
       },
     },
-    // Flexbox & Grid
+    /////////////////////////////////////////////////// Flexbox & Grid
     {
       path: '/flexgrid',
       name: 'flexgridView',
@@ -470,6 +470,153 @@ const router = createRouter({
       component: () => import('@/views/flexgrid/24PlaceSelfView.vue'),
       meta: {
         title: 'Place Self',
+      },
+    },
+    /////////////////////////////////////////////////// Spacing
+    {
+      path: '/spacing',
+      name: 'spacingView',
+      component: () => import('@/views/spacing/00View.vue'),
+      meta: {
+        title: 'Spacing',
+      },
+    },
+    {
+      path: '/spacing/padding',
+      name: 'paddingView',
+      component: () => import('@/views/spacing/01PaddingView.vue'),
+      meta: {
+        title: 'Padding',
+      },
+    },
+    {
+      path: '/spacing/margin',
+      name: 'marginView',
+      component: () => import('@/views/spacing/02MarginView.vue'),
+      meta: {
+        title: 'Margin',
+      },
+    },
+    {
+      path: '/spacing/spacebetween',
+      name: 'spacebetweenView',
+      component: () => import('@/views/spacing/03SpaceBetweenView.vue'),
+      meta: {
+        title: 'Space Between',
+      },
+    },
+    /////////////////////////////////////////////////// Sizing
+    {
+      path: '/sizing',
+      name: 'sizingView',
+      component: () => import('@/views/sizing/00View.vue'),
+      meta: {
+        title: 'Sizing',
+      },
+    },
+    {
+      path: '/sizing/width',
+      name: 'widthView',
+      component: () => import('@/views/sizing/01WidthView.vue'),
+      meta: {
+        title: 'Width',
+      },
+    },
+    {
+      path: '/sizing/minwidth',
+      name: 'minwidthView',
+      component: () => import('@/views/sizing/02MinWidthView.vue'),
+      meta: {
+        title: 'Min-Width',
+      },
+    },
+    {
+      path: '/sizing/maxwidth',
+      name: 'maxwidthView',
+      component: () => import('@/views/sizing/03MaxWidthView.vue'),
+      meta: {
+        title: 'Max-Width',
+      },
+    },
+    {
+      path: '/sizing/height',
+      name: 'heightView',
+      component: () => import('@/views/sizing/04HeightView.vue'),
+      meta: {
+        title: 'Height',
+      },
+    },
+    {
+      path: '/sizing/minheight',
+      name: 'minheightView',
+      component: () => import('@/views/sizing/05MinHeightView.vue'),
+      meta: {
+        title: 'Min-Height',
+      },
+    },
+    {
+      path: '/sizing/maxheight',
+      name: 'maxheightView',
+      component: () => import('@/views/sizing/06MaxHeightView.vue'),
+      meta: {
+        title: 'Max-Height',
+      },
+    },
+    /////////////////////////////////////////////////// Typography
+    {
+      path: '/typography',
+      name: 'typographyView',
+      component: () => import('@/views/typography/00View.vue'),
+      meta: {
+        title: 'Typography',
+      },
+    },
+    {
+      path: '/typography/fontfamily',
+      name: 'fontfamilyView',
+      component: () => import('@/views/typography/01FontFamilyView.vue'),
+      meta: {
+        title: 'Font Family',
+      },
+    },
+    {
+      path: '/typography/fontsize',
+      name: 'fontsizeView',
+      component: () => import('@/views/typography/02FontSizeView.vue'),
+      meta: {
+        title: 'Font Size',
+      },
+    },
+    {
+      path: '/typography/fontsmoothing',
+      name: 'fontsmoothingView',
+      component: () => import('@/views/typography/03FontSmoothingView.vue'),
+      meta: {
+        title: 'Font Smoothing',
+      },
+    },
+    {
+      path: '/typography/fontstyle',
+      name: 'fontstyleView',
+      component: () => import('@/views/typography/04FontStyleView.vue'),
+      meta: {
+        title: 'Font Style',
+      },
+    },
+    {
+      path: '/typography/fontweight',
+      name: 'fontweightView',
+      component: () => import('@/views/typography/05FontWeightView.vue'),
+      meta: {
+        title: 'Font Weight',
+      },
+    },
+    {
+      path: '/typography/fontvariantnumeric',
+      name: 'fontvariantnumericView',
+      component: () => import('@/views/typography/06FontVariantNumericView.vue'),
+      meta: {
+        title: 'Font Variant Numeric',
       },
     },
   ],
