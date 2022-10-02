@@ -19,18 +19,15 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-
 const items = [
-  { name: 'Home', href: '/' },
-  { name: 'Getting Started', href: '/getstarted' },
-  { name: 'Customization', href: '/customization' },
-  { name: 'Layout', href: '/layout' },
-  { name: 'Flexbox & Grid', href: '/flexgrid' },
-  { name: 'Spacing', href: '/spacing' },
-  { name: 'Sizing', href: '/sizing' },
-  { name: 'Typography', href: '/typography' },
-  { name: 'Backgrounds', href: '/backgrounds' },
-  { name: 'Borders', href: '/borders' },
+  { name: 'Background Attachment', href: '/backgrounds/fontfamily' },
+  { name: 'Background Clip', href: '/backgrounds/bgclip' },
+  { name: 'Background Color', href: '/backgrounds/bgcolor' },
+  { name: 'Background Origin', href: '/backgrounds/bgorigin' },
+  { name: 'Background Position', href: '/backgrounds/bgposition' },
+  { name: 'Background Repeat', href: '/backgrounds/bgrepeat' },
+  { name: 'Background Size', href: '/backgrounds/bgsize' },
+  { name: 'Background Image', href: '/backgrounds/bgimage' },
+  { name: 'Gradient Color Stops', href: '/backgrounds/gradientcolorstops' },
 ]
 </script>

@@ -619,6 +619,352 @@ const router = createRouter({
         title: 'Font Variant Numeric',
       },
     },
+    {
+      path: '/typography/letterspacing',
+      name: 'letterspacingView',
+      component: () => import('@/views/typography/07LetterSpacingView.vue'),
+      meta: {
+        title: 'Letter Spacing',
+      },
+    },
+    {
+      path: '/typography/lineheight',
+      name: 'lineheightView',
+      component: () => import('@/views/typography/08LineHeightView.vue'),
+      meta: {
+        title: 'Line Height',
+      },
+    },
+    {
+      path: '/typography/liststyletype',
+      name: 'liststyletypeView',
+      component: () => import('@/views/typography/09ListStyleTypeView.vue'),
+      meta: {
+        title: 'List Style Type',
+      },
+    },
+    {
+      path: '/typography/liststyleposition',
+      name: 'liststylepositionView',
+      component: () => import('@/views/typography/10ListStylePositionView.vue'),
+      meta: {
+        title: 'List Style Position',
+      },
+    },
+    {
+      path: '/typography/textalign',
+      name: 'textalignView',
+      component: () => import('@/views/typography/11TextAlignView.vue'),
+      meta: {
+        title: 'Text Align',
+      },
+    },
+    {
+      path: '/typography/textcolor',
+      name: 'textcolorView',
+      component: () => import('@/views/typography/11TextColorView.vue'),
+      meta: {
+        title: 'Text Color',
+      },
+    },
+    {
+      path: '/typography/textdecoration',
+      name: 'textdecorationView',
+      component: () => import('@/views/typography/12TextDecorationView.vue'),
+      meta: {
+        title: 'Text Decoration',
+      },
+    },
+    {
+      path: '/typography/textdecorationcolor',
+      name: 'textdecorationcolorView',
+      component: () => import('@/views/typography/13TextDecorationColorView.vue'),
+      meta: {
+        title: 'Text Decoration Color',
+      },
+    },
+    {
+      path: '/typography/textdecorationstyle',
+      name: 'textdecorationstyleView',
+      component: () => import('@/views/typography/14TextDecorationStyleView.vue'),
+      meta: {
+        title: 'Text Decoration Style',
+      },
+    },
+    {
+      path: '/typography/textdecorationthickness',
+      name: 'textdecorationthicknessView',
+      component: () => import('@/views/typography/15TextDecorationThicknessView.vue'),
+      meta: {
+        title: 'Text Decoration Thickness',
+      },
+    },
+    {
+      path: '/typography/textunderlineoffset',
+      name: 'textunderlineoffsetView',
+      component: () => import('@/views/typography/16TextUnderlineOffsetView.vue'),
+      meta: {
+        title: 'Text Underline Offset',
+      },
+    },
+    {
+      path: '/typography/textoverflow',
+      name: 'textoverflowView',
+      component: () => import('@/views/typography/17TextOverflowView.vue'),
+      meta: {
+        title: 'Text Overflow',
+      },
+    },
+    {
+      path: '/typography/textindent',
+      name: 'textindentView',
+      component: () => import('@/views/typography/18TextIndentView.vue'),
+      meta: {
+        title: 'Text Indent',
+      },
+    },
+    {
+      path: '/typography/verticalalign',
+      name: 'verticalalignView',
+      component: () => import('@/views/typography/19VerticalAlignView.vue'),
+      meta: {
+        title: 'Vertical Align',
+      },
+    },
+    {
+      path: '/typography/whitespace',
+      name: 'whitespaceView',
+      component: () => import('@/views/typography/20WhitespaceView.vue'),
+      meta: {
+        title: 'Whitespace',
+      },
+    },
+    {
+      path: '/typography/wordbreak',
+      name: 'wordbreakView',
+      component: () => import('@/views/typography/21WordBreakView.vue'),
+      meta: {
+        title: 'Word Break',
+      },
+    },
+    {
+      path: '/typography/content',
+      name: 'contentView',
+      component: () => import('@/views/typography/22ContentView.vue'),
+      meta: {
+        title: 'Content',
+      },
+    },
+    /////////////////////////////////////////////////// Backgrounds
+    {
+      path: '/backgrounds',
+      name: 'backgroundsView',
+      component: () => import('@/views/backgrounds/00View.vue'),
+      meta: {
+        title: 'Backgrounds',
+      },
+    },
+    {
+      path: '/backgrounds/fontfamily',
+      name: 'bgattachmentView',
+      component: () => import('@/views/backgrounds/01BgAttachmentView.vue'),
+      meta: {
+        title: 'Background Attachment',
+      },
+    },
+    {
+      path: '/backgrounds/bgclip',
+      name: 'bgclipView',
+      component: () => import('@/views/backgrounds/02BgClipView.vue'),
+      meta: {
+        title: 'Background Clip',
+      },
+    },
+    {
+      path: '/backgrounds/bgcolor',
+      name: 'bgcolorView',
+      component: () => import('@/views/backgrounds/03BgColorView.vue'),
+      meta: {
+        title: 'Background Color',
+      },
+    },
+    {
+      path: '/backgrounds/bgorigin',
+      name: 'bgoriginView',
+      component: () => import('@/views/backgrounds/04BgOriginView.vue'),
+      meta: {
+        title: 'Background Origin',
+      },
+    },
+    {
+      path: '/backgrounds/bgposition',
+      name: 'bgpositionView',
+      component: () => import('@/views/backgrounds/05BgPositionView.vue'),
+      meta: {
+        title: 'Background Position',
+      },
+    },
+    {
+      path: '/backgrounds/bgrepeat',
+      name: 'bgrepeatView',
+      component: () => import('@/views/backgrounds/06BgRepeatView.vue'),
+      meta: {
+        title: 'Background Repeat',
+      },
+    },
+    {
+      path: '/backgrounds/bgsize',
+      name: 'bgsizeView',
+      component: () => import('@/views/backgrounds/07BgSizeView.vue'),
+      meta: {
+        title: 'Background Size',
+      },
+    },
+    {
+      path: '/backgrounds/bgimage',
+      name: 'bgimageView',
+      component: () => import('@/views/backgrounds/08BgImageView.vue'),
+      meta: {
+        title: 'Background Image',
+      },
+    },
+    {
+      path: '/backgrounds/gradientcolorstops',
+      name: 'gradientcolorstopsView',
+      component: () => import('@/views/backgrounds/09GradientColorStopsView.vue'),
+      meta: {
+        title: 'Gradient Color Stops',
+      },
+    },
+    /////////////////////////////////////////////////// Borders
+    {
+      path: '/borders',
+      name: 'bordersView',
+      component: () => import('@/views/borders/00View.vue'),
+      meta: {
+        title: 'Borders',
+      },
+    },
+    {
+      path: '/borders/borderradius',
+      name: 'borderradiusView',
+      component: () => import('@/views/borders/01BorderRadiusView.vue'),
+      meta: {
+        title: 'Border Radius',
+      },
+    },
+    {
+      path: '/borders/borderwidth',
+      name: 'borderwidthView',
+      component: () => import('@/views/borders/02BorderWidthView.vue'),
+      meta: {
+        title: 'Border Width',
+      },
+    },
+    {
+      path: '/borders/bordercolor',
+      name: 'bordercolorView',
+      component: () => import('@/views/borders/03BorderColorView.vue'),
+      meta: {
+        title: 'Border Color',
+      },
+    },
+    {
+      path: '/borders/borderstyle',
+      name: 'borderstyleView',
+      component: () => import('@/views/borders/04BorderStyleView.vue'),
+      meta: {
+        title: 'Border Style',
+      },
+    },
+    {
+      path: '/borders/dividewidth',
+      name: 'dividewidthView',
+      component: () => import('@/views/borders/05DivideWidthView.vue'),
+      meta: {
+        title: 'Divide Width',
+      },
+    },
+    {
+      path: '/borders/dividecolor',
+      name: 'dividecolorView',
+      component: () => import('@/views/borders/06DivideColorView.vue'),
+      meta: {
+        title: 'Divide Color',
+      },
+    },
+    {
+      path: '/borders/dividestyle',
+      name: 'dividestyleView',
+      component: () => import('@/views/borders/07DivideStyleView.vue'),
+      meta: {
+        title: 'Divide Style',
+      },
+    },
+    {
+      path: '/borders/outlinewidth',
+      name: 'outlinewidthView',
+      component: () => import('@/views/borders/08OutlineWidthView.vue'),
+      meta: {
+        title: 'Outline Width',
+      },
+    },
+    {
+      path: '/borders/outlinecolor',
+      name: 'outlinecolorView',
+      component: () => import('@/views/borders/09OutlineColorView.vue'),
+      meta: {
+        title: 'Outline Color',
+      },
+    },
+    {
+      path: '/borders/outlinestyle',
+      name: 'outlinestyleView',
+      component: () => import('@/views/borders/10OutlineStyleView.vue'),
+      meta: {
+        title: 'Outline Style',
+      },
+    },
+    {
+      path: '/borders/outlineoffset',
+      name: 'outlineoffsetView',
+      component: () => import('@/views/borders/11OutlineOffsetView.vue'),
+      meta: {
+        title: 'Outline Offset',
+      },
+    },
+    {
+      path: '/borders/ringwidth',
+      name: 'ringwidthView',
+      component: () => import('@/views/borders/12RingWidthView.vue'),
+      meta: {
+        title: 'Ring Width',
+      },
+    },
+    {
+      path: '/borders/ringcolor',
+      name: 'ringcolorView',
+      component: () => import('@/views/borders/13RingColorView.vue'),
+      meta: {
+        title: 'Ring Color',
+      },
+    },
+    {
+      path: '/borders/ringoffsetwidth',
+      name: 'ringoffsetwidthView',
+      component: () => import('@/views/borders/14RingOffsetWidthView.vue'),
+      meta: {
+        title: 'Ring Offset Width',
+      },
+    },
+    {
+      path: '/borders/ringoffsetcolor',
+      name: 'ringoffsetcolorView',
+      component: () => import('@/views/borders/15RingOffsetColorView.vue'),
+      meta: {
+        title: 'Ring Offset Color',
+      },
+    },
   ],
 })
 
