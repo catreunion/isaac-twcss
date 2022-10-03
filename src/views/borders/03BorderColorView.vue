@@ -9,9 +9,9 @@
     <p class="font-mono">border-{color}-{50|100|200|300|400|500|600|700|800|900}</p>
     <p class="font-mono">color : slate|gray|zinc|neutral|stone|red|orange|amber|yellow|lime|</p>
     <p class="font-mono">color : green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose</p>
-    <div class="border-8 border-indigo-500/100"></div>
-    <div class="border-8 border-indigo-500/75"></div>
-    <div class="border-8 border-indigo-500/50"></div>
+    <div class="w-80 border-8 border-indigo-500/100"></div>
+    <div class="w-80 border-8 border-indigo-500/75"></div>
+    <div class="w-80 border-8 border-indigo-500/50"></div>
     <button class="border-8 border-indigo-500 p-2 hover:border-indigo-300">Send email</button>
     <br />
     <br />

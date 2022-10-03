@@ -22,7 +22,7 @@
 const items = [
   { name: 'Border Radius', href: '/borders/bradius' },
   { name: 'Border Width', href: '/borders/borderwidth' },
-  { name: 'Border Color', href: '/borders/bordercolor' },
+  { name: 'Border Color 😼', href: '/borders/bordercolor' },
   { name: 'Border Style', href: '/borders/borderstyle' },
   { name: 'Divide Width', href: '/borders/dividewidth' },
   { name: 'Divide Color', href: '/borders/dividecolor' },
