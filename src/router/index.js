@@ -1014,6 +1014,159 @@ const router = createRouter({
         title: 'Background Blend Mode',
       },
     },
+    /////////////////////////////////////////////////// Filters
+    {
+      path: '/filters',
+      name: 'filtersView',
+      component: () => import('@/views/filters/00View.vue'),
+      meta: {
+        title: 'Filters',
+      },
+    },
+    {
+      path: '/filters/blur',
+      name: 'blurView',
+      component: () => import('@/views/filters/01BlurView.vue'),
+      meta: {
+        title: 'Blur',
+      },
+    },
+    {
+      path: '/filters/brightness',
+      name: 'brightnessView',
+      component: () => import('@/views/filters/02BrightnessView.vue'),
+      meta: {
+        title: 'Brightness',
+      },
+    },
+    {
+      path: '/filters/contrast',
+      name: 'contrastView',
+      component: () => import('@/views/filters/03ContrastView.vue'),
+      meta: {
+        title: 'Contrast',
+      },
+    },
+    {
+      path: '/filters/dropshadow',
+      name: 'dropshadowView',
+      component: () => import('@/views/filters/04DropShadowView.vue'),
+      meta: {
+        title: 'Drop Shadow',
+      },
+    },
+    {
+      path: '/filters/grayscale',
+      name: 'grayscaleView',
+      component: () => import('@/views/filters/05GrayscaleView.vue'),
+      meta: {
+        title: 'Grayscale',
+      },
+    },
+    {
+      path: '/filters/huerotate',
+      name: 'huerotateView',
+      component: () => import('@/views/filters/06HueRotateView.vue'),
+      meta: {
+        title: 'Hue Rotate',
+      },
+    },
+    {
+      path: '/filters/invert',
+      name: 'invertView',
+      component: () => import('@/views/filters/07InvertView.vue'),
+      meta: {
+        title: 'Invert',
+      },
+    },
+    {
+      path: '/filters/saturate',
+      name: 'saturateView',
+      component: () => import('@/views/filters/08SaturateView.vue'),
+      meta: {
+        title: 'Saturate',
+      },
+    },
+    {
+      path: '/filters/sepia',
+      name: 'sepiaView',
+      component: () => import('@/views/filters/09SepiaView.vue'),
+      meta: {
+        title: 'Sepia',
+      },
+    },
+    {
+      path: '/filters/bdblur',
+      name: 'bdblurView',
+      component: () => import('@/views/filters/10BdBlurView.vue'),
+      meta: {
+        title: 'Backdrop Blur',
+      },
+    },
+    {
+      path: '/filters/bdbrightness',
+      name: 'bdbrightnessView',
+      component: () => import('@/views/filters/11BdBrightnessView.vue'),
+      meta: {
+        title: 'Backdrop Brightness',
+      },
+    },
+    {
+      path: '/filters/bdcontrast',
+      name: 'bdcontrastView',
+      component: () => import('@/views/filters/12BdContrastView.vue'),
+      meta: {
+        title: 'Backdrop Contrast',
+      },
+    },
+    {
+      path: '/filters/bdgrayscale',
+      name: 'bdgrayscaleView',
+      component: () => import('@/views/filters/13BdGrayscaleView.vue'),
+      meta: {
+        title: 'Backdrop Grayscale',
+      },
+    },
+    {
+      path: '/filters/bdhuerotate',
+      name: 'bdhuerotateView',
+      component: () => import('@/views/filters/14BdHueRotateView.vue'),
+      meta: {
+        title: 'Backdrop Hue Rotate',
+      },
+    },
+    {
+      path: '/filters/bdinvert',
+      name: 'bdinvertView',
+      component: () => import('@/views/filters/15BdInvertView.vue'),
+      meta: {
+        title: 'Backdrop Invert',
+      },
+    },
+    {
+      path: '/filters/bdopacity',
+      name: 'bdopacityView',
+      component: () => import('@/views/filters/16BdOpacityView.vue'),
+      meta: {
+        title: 'Backdrop Opacity',
+      },
+    },
+    {
+      path: '/filters/bdsaturate',
+      name: 'bdsaturateView',
+      component: () => import('@/views/filters/17BdSaturateView.vue'),
+      meta: {
+        title: 'Backdrop Saturate',
+      },
+    },
+    {
+      path: '/filters/bdsepia',
+      name: 'bdsepiaView',
+      component: () => import('@/views/filters/18BdSepiaView.vue'),
+      meta: {
+        title: 'Backdrop Sepia',
+      },
+    },
   ],
 })
 

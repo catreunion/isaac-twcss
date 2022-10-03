@@ -33,5 +33,6 @@ const items = [
   { name: 'Backgrounds', href: '/backgrounds' },
   { name: 'Borders', href: '/borders' },
   { name: 'Effects', href: '/effects' },
+  { name: 'Filters', href: '/filters' },
 ]
 </script>
