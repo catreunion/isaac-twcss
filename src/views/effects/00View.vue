@@ -19,19 +19,11 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
-
 const items = [
-  { name: 'Home', href: '/' },
-  { name: 'Getting Started', href: '/getstarted' },
-  { name: 'Customization', href: '/customization' },
-  { name: 'Layout', href: '/layout' },
-  { name: 'Flexbox & Grid', href: '/flexgrid' },
-  { name: 'Spacing', href: '/spacing' },
-  { name: 'Sizing', href: '/sizing' },
-  { name: 'Typography', href: '/typography' },
-  { name: 'Backgrounds', href: '/backgrounds' },
-  { name: 'Borders', href: '/borders' },
-  { name: 'Effects', href: '/effects' },
+  { name: 'Box Shadow', href: '/effects/boxshadow' },
+  { name: 'Box Shadow Color', href: '/effects/boxshadowcolor' },
+  { name: 'Opacity', href: '/effects/opacity' },
+  { name: 'Mix Blend Mode', href: '/effects/mixblendmode' },
+  { name: 'Background Blend Mode', href: '/effects/bgblendmode' },
 ]
 </script>

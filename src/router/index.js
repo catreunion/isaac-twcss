@@ -965,6 +965,55 @@ const router = createRouter({
         title: 'Ring Offset Color',
       },
     },
+    /////////////////////////////////////////////////// Effects
+    {
+      path: '/effects',
+      name: 'effectsView',
+      component: () => import('@/views/effects/00View.vue'),
+      meta: {
+        title: 'Effects',
+      },
+    },
+    {
+      path: '/effects/boxshadow',
+      name: 'boxshadowView',
+      component: () => import('@/views/effects/01BoxShadowView.vue'),
+      meta: {
+        title: 'Box Shadow',
+      },
+    },
+    {
+      path: '/effects/boxshadowcolor',
+      name: 'boxshadowcolorView',
+      component: () => import('@/views/effects/02BoxShadowColorView.vue'),
+      meta: {
+        title: 'Box Shadow Color',
+      },
+    },
+    {
+      path: '/effects/opacity',
+      name: 'opacityView',
+      component: () => import('@/views/effects/03OpacityView.vue'),
+      meta: {
+        title: 'Opacity',
+      },
+    },
+    {
+      path: '/effects/mixblendmode',
+      name: 'mixblendmodeView',
+      component: () => import('@/views/effects/04MixBlendModeView.vue'),
+      meta: {
+        title: 'Mix Blend Mode',
+      },
+    },
+    {
+      path: '/effects/bgblendmode',
+      name: 'bgblendmodeView',
+      component: () => import('@/views/effects/05BgBlendModeView.vue'),
+      meta: {
+        title: 'Background Blend Mode',
+      },
+    },
   ],
 })
 
