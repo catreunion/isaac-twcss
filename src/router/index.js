@@ -854,17 +854,17 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/borderwidth',
-      name: 'borderwidthView',
-      component: () => import('@/views/borders/02BorderWidthView.vue'),
+      path: '/borders/bwidth',
+      name: 'bwidthView',
+      component: () => import('@/views/borders/02BWidthView.vue'),
       meta: {
         title: 'Border Width',
       },
     },
     {
-      path: '/borders/bordercolor',
-      name: 'bordercolorView',
-      component: () => import('@/views/borders/03BorderColorView.vue'),
+      path: '/borders/bcolor',
+      name: 'bcolorView',
+      component: () => import('@/views/borders/03BColorView.vue'),
       meta: {
         title: 'Border Color',
       },
