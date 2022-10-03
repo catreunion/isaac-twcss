@@ -20,10 +20,10 @@
 
 <script setup>
 const items = [
-  { name: 'Width', href: '/sizing/width' },
+  { name: 'Width  😼', href: '/sizing/width' },
   { name: 'Min-Width', href: '/sizing/minwidth' },
   { name: 'Max-Width', href: '/sizing/maxwidth' },
-  { name: 'Height', href: '/sizing/height' },
+  { name: 'Height 😼', href: '/sizing/height' },
   { name: 'Min-Height', href: '/sizing/minheight' },
   { name: 'Max-Height', href: '/sizing/maxheight' },
 ]

@@ -30,7 +30,7 @@
 
     <p>percentage widths</p>
     <p class="font-mono">w-{1/2|1/3|2/3|1/4|3/4|1/5|2/5|3/5|4/5|1/6|5/6}</p>
-    <p class="font-mono">w-{1/12|5/12|7/12|10/12|11/12|full|screen|min|max|fit|auto}</p>
+    <p class="font-mono">w-{1/12|5/12|7/12|10/12|11/12|full|min|max|fit}</p>
     <div class="flex">
       <div class="w-1/2 border-8 border-indigo-500">w-1/2</div>
       <div class="w-1/2 border-8 border-indigo-300">w-1/2</div>
@@ -57,5 +57,15 @@
     </div>
     <div class="w-full border-8 border-indigo-300">w-full</div>
     <br />
+
+    <p class="font-mono">w-screen</p>
+    <p>make an element span the entire width of the viewport</p>
+    <br />
+
+    <p class="font-mono">w-auto</p>
+    <p>reset the width</p>
+    <br />
+
+    <div class="w-[16rem] border-8 border-indigo-500"></div>
   </main>
 </template>
