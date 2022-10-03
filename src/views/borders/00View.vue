@@ -20,7 +20,7 @@
 
 <script setup>
 const items = [
-  { name: 'Border Radius', href: '/borders/borderradius' },
+  { name: 'Border Radius', href: '/borders/bradius' },
   { name: 'Border Width', href: '/borders/borderwidth' },
   { name: 'Border Color', href: '/borders/bordercolor' },
   { name: 'Border Style', href: '/borders/borderstyle' },

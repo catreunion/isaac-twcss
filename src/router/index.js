@@ -846,9 +846,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/borderradius',
-      name: 'borderradiusView',
-      component: () => import('@/views/borders/01BorderRadiusView.vue'),
+      path: '/borders/bradius',
+      name: 'bradiusView',
+      component: () => import('@/views/borders/01BRadiusView.vue'),
       meta: {
         title: 'Border Radius',
       },
