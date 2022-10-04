@@ -1,12 +1,11 @@
 <template>
   <div class="flex">
     <Sidebar />
-    <!-- <RouterView v-slot="{ Component }">
+    <RouterView v-slot="{ Component }">
       <Transition name="page-opacity">
         <component :is="Component" />
       </Transition>
-    </RouterView> -->
-    <RouterView />
+    </RouterView>
   </div>
 </template>
 
@@ -21,6 +20,6 @@ import { RouterView } from 'vue-router'
 }
 
 .page-opacity-enter-active {
-  transition: 6000ms ease all;
+  transition: 1500ms ease all;
 }
 </style>

@@ -1290,6 +1290,23 @@ const router = createRouter({
         title: 'Transform Origin',
       },
     },
+    /////////////////////////////////////////////////// Interactivity
+    {
+      path: '/interactivity',
+      name: 'interactivityView',
+      component: () => import('@/views/interactivity/00View.vue'),
+      meta: {
+        title: 'Interactivity',
+      },
+    },
+    {
+      path: '/interactivity/accentcolor',
+      name: 'accentcolorView',
+      component: () => import('@/views/interactivity/01AccentColorView.vue'),
+      meta: {
+        title: 'Accent Color',
+      },
+    },
   ],
 })
 
