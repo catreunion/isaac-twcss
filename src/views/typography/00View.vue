@@ -21,7 +21,7 @@
 <script setup>
 const items = [
   { name: 'Font Family', href: '/typography/fontfamily' },
-  { name: 'Font Size', href: '/typography/fontsize' },
+  { name: 'Font Size 😼', href: '/typography/fsize' },
   { name: 'Font Smoothing', href: '/typography/fontsmoothing' },
   { name: 'Font Style', href: '/typography/fontstyle' },
   { name: 'Font Weight', href: '/typography/fontweight' },

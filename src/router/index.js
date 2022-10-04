@@ -580,9 +580,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/fontsize',
-      name: 'fontsizeView',
-      component: () => import('@/views/typography/02FontSizeView.vue'),
+      path: '/typography/fsize',
+      name: 'fsizeView',
+      component: () => import('@/views/typography/02FSizeView.vue'),
       meta: {
         title: 'Font Size',
       },
