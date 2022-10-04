@@ -660,9 +660,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/textcolor',
-      name: 'textcolorView',
-      component: () => import('@/views/typography/11TextColorView.vue'),
+      path: '/typography/tcolor',
+      name: 'tcolorView',
+      component: () => import('@/views/typography/11TColorView.vue'),
       meta: {
         title: 'Text Color',
       },
