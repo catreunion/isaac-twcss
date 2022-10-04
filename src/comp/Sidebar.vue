@@ -34,5 +34,8 @@ const items = [
   { name: 'Borders', href: '/borders' },
   { name: 'Effects', href: '/effects' },
   { name: 'Filters', href: '/filters' },
+  { name: 'Tables', href: '/tables' },
+  { name: 'Transitions & Animation', href: '/transani' },
+  { name: 'Transforms', href: '/transforms' },
 ]
 </script>

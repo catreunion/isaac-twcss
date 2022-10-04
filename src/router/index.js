@@ -1159,6 +1159,137 @@ const router = createRouter({
         title: 'Backdrop Sepia',
       },
     },
+    /////////////////////////////////////////////////// Tables
+    {
+      path: '/tables',
+      name: 'tablesView',
+      component: () => import('@/views/tables/00View.vue'),
+      meta: {
+        title: 'Tables',
+      },
+    },
+    {
+      path: '/tables/bcollapse',
+      name: 'bcollapseView',
+      component: () => import('@/views/tables/01BCollapseView.vue'),
+      meta: {
+        title: 'Border Collapse',
+      },
+    },
+    {
+      path: '/tables/bspacing',
+      name: 'bspacingView',
+      component: () => import('@/views/tables/02BSpacingView.vue'),
+      meta: {
+        title: 'Border Spacing',
+      },
+    },
+    {
+      path: '/tables/tablelayout',
+      name: 'tablelayoutView',
+      component: () => import('@/views/tables/03TableLayoutView.vue'),
+      meta: {
+        title: 'Table Layout',
+      },
+    },
+    /////////////////////////////////////////////////// Transitions & Animation
+    {
+      path: '/transani',
+      name: 'transaniView',
+      component: () => import('@/views/transani/00View.vue'),
+      meta: {
+        title: 'Transitions & Animation',
+      },
+    },
+    {
+      path: '/transani/transproperty',
+      name: 'transpropertyView',
+      component: () => import('@/views/transani/01TransPropertyView.vue'),
+      meta: {
+        title: 'Transition Property',
+      },
+    },
+    {
+      path: '/transani/transduration',
+      name: 'transdurationView',
+      component: () => import('@/views/transani/02TransDurationView.vue'),
+      meta: {
+        title: 'Transition Duration',
+      },
+    },
+    {
+      path: '/transani/transtiming',
+      name: 'transtimingView',
+      component: () => import('@/views/transani/03TransTimingView.vue'),
+      meta: {
+        title: 'Transition Timing Function',
+      },
+    },
+    {
+      path: '/transani/transdelay',
+      name: 'transdelayView',
+      component: () => import('@/views/transani/04TransDelayView.vue'),
+      meta: {
+        title: 'Transition Delay',
+      },
+    },
+    {
+      path: '/transani/animation',
+      name: 'animationView',
+      component: () => import('@/views/transani/05AnimationView.vue'),
+      meta: {
+        title: 'Animation',
+      },
+    },
+    /////////////////////////////////////////////////// Transforms
+    {
+      path: '/transforms',
+      name: 'transformsView',
+      component: () => import('@/views/transforms/00View.vue'),
+      meta: {
+        title: 'Transforms',
+      },
+    },
+    {
+      path: '/transforms/scale',
+      name: 'scaleView',
+      component: () => import('@/views/transforms/01ScaleView.vue'),
+      meta: {
+        title: 'Scale',
+      },
+    },
+    {
+      path: '/transforms/rotate',
+      name: 'rotateView',
+      component: () => import('@/views/transforms/02RotateView.vue'),
+      meta: {
+        title: 'Rotate',
+      },
+    },
+    {
+      path: '/transforms/translate',
+      name: 'translateView',
+      component: () => import('@/views/transforms/03TranslateView.vue'),
+      meta: {
+        title: 'Translate',
+      },
+    },
+    {
+      path: '/transforms/skew',
+      name: 'skewView',
+      component: () => import('@/views/transforms/04SkewView.vue'),
+      meta: {
+        title: 'Skew',
+      },
+    },
+    {
+      path: '/transforms/transformorigin',
+      name: 'transformoriginView',
+      component: () => import('@/views/transforms/05TransformOriginView.vue'),
+      meta: {
+        title: 'Transform Origin',
+      },
+    },
   ],
 })
 
