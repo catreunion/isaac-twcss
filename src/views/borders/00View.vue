@@ -25,7 +25,7 @@ const items = [
   { name: 'Border Color 😼', href: '/borders/bcolor' },
   { name: 'Border Style 😼', href: '/borders/bstyle' },
   { name: 'Divide Width + Color 😼', href: '/borders/divwidthcolor' },
-  { name: 'Divide Style', href: '/borders/dividestyle' },
+  { name: 'Divide Style', href: '/borders/divstyle' },
   { name: 'Outline Width', href: '/borders/outlinewidth' },
   { name: 'Outline Color', href: '/borders/outlinecolor' },
   { name: 'Outline Style', href: '/borders/outlinestyle' },

@@ -886,9 +886,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/dividestyle',
-      name: 'dividestyleView',
-      component: () => import('@/views/borders/07DivideStyleView.vue'),
+      path: '/borders/divstyle',
+      name: 'divstyleView',
+      component: () => import('@/views/borders/07DivStyleView.vue'),
       meta: {
         title: 'Divide Style',
       },
