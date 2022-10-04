@@ -870,27 +870,19 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/borderstyle',
-      name: 'borderstyleView',
-      component: () => import('@/views/borders/04BorderStyleView.vue'),
+      path: '/borders/bstyle',
+      name: 'bstyleView',
+      component: () => import('@/views/borders/04BStyleView.vue'),
       meta: {
         title: 'Border Style',
       },
     },
     {
-      path: '/borders/dividewidth',
-      name: 'dividewidthView',
-      component: () => import('@/views/borders/05DivideWidthView.vue'),
+      path: '/borders/divwidthcolor',
+      name: 'divwidthcolorView',
+      component: () => import('@/views/borders/05DivWidthColorView.vue'),
       meta: {
-        title: 'Divide Width',
-      },
-    },
-    {
-      path: '/borders/dividecolor',
-      name: 'dividecolorView',
-      component: () => import('@/views/borders/06DivideColorView.vue'),
-      meta: {
-        title: 'Divide Color',
+        title: 'Divide Width + Color',
       },
     },
     {
