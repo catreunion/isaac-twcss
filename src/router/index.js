@@ -604,9 +604,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/fontweight',
-      name: 'fontweightView',
-      component: () => import('@/views/typography/05FontWeightView.vue'),
+      path: '/typography/fweight',
+      name: 'fweightView',
+      component: () => import('@/views/typography/05FWeightView.vue'),
       meta: {
         title: 'Font Weight',
       },
@@ -708,9 +708,17 @@ const router = createRouter({
       },
     },
     {
+      path: '/typography/ttransform',
+      name: 'ttransformView',
+      component: () => import('@/views/typography/17TTransform.vue'),
+      meta: {
+        title: 'Text Transform',
+      },
+    },
+    {
       path: '/typography/textoverflow',
       name: 'textoverflowView',
-      component: () => import('@/views/typography/17TextOverflowView.vue'),
+      component: () => import('@/views/typography/18TextOverflowView.vue'),
       meta: {
         title: 'Text Overflow',
       },
@@ -718,7 +726,7 @@ const router = createRouter({
     {
       path: '/typography/textindent',
       name: 'textindentView',
-      component: () => import('@/views/typography/18TextIndentView.vue'),
+      component: () => import('@/views/typography/19TextIndentView.vue'),
       meta: {
         title: 'Text Indent',
       },
@@ -726,7 +734,7 @@ const router = createRouter({
     {
       path: '/typography/verticalalign',
       name: 'verticalalignView',
-      component: () => import('@/views/typography/19VerticalAlignView.vue'),
+      component: () => import('@/views/typography/20VerticalAlignView.vue'),
       meta: {
         title: 'Vertical Align',
       },
@@ -734,7 +742,7 @@ const router = createRouter({
     {
       path: '/typography/whitespace',
       name: 'whitespaceView',
-      component: () => import('@/views/typography/20WhitespaceView.vue'),
+      component: () => import('@/views/typography/21WhitespaceView.vue'),
       meta: {
         title: 'Whitespace',
       },
@@ -742,7 +750,7 @@ const router = createRouter({
     {
       path: '/typography/wordbreak',
       name: 'wordbreakView',
-      component: () => import('@/views/typography/21WordBreakView.vue'),
+      component: () => import('@/views/typography/22WordBreakView.vue'),
       meta: {
         title: 'Word Break',
       },
@@ -750,7 +758,7 @@ const router = createRouter({
     {
       path: '/typography/content',
       name: 'contentView',
-      component: () => import('@/views/typography/22ContentView.vue'),
+      component: () => import('@/views/typography/23ContentView.vue'),
       meta: {
         title: 'Content',
       },
