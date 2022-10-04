@@ -1,7 +1,3 @@
 <template>
-  <main>
-    <h1>Justify Items</h1>
-  </main>
+  <main></main>
 </template>
-
-<script setup></script>
