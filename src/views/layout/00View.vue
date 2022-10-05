@@ -27,7 +27,7 @@ const items = [
   { name: 'Break Before', href: '/layout/breakbefore' },
   { name: 'Break Inside', href: '/layout/breakinside' },
   { name: 'Box Decoration Break', href: '/layout/boxdecorationbreak' },
-  { name: 'Box Sizing', href: '/layout/boxsizing' },
+  { name: 'Box Sizing 😼', href: '/layout/boxsizing' },
   { name: 'Display', href: '/layout/display' },
   { name: 'Floats', href: '/layout/floats' },
   { name: 'Clear', href: '/layout/clear' },

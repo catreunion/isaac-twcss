@@ -20,8 +20,8 @@
 
 <script setup>
 const items = [
-  { name: 'Box Shadow', href: '/effects/boxshadow' },
-  { name: 'Box Shadow Color', href: '/effects/boxshadowcolor' },
+  { name: 'Box Shadow 😼', href: '/effects/boxshadow' },
+  { name: 'Box Shadow Color 😼', href: '/effects/boxshadowcolor' },
   { name: 'Opacity', href: '/effects/opacity' },
   { name: 'Mix Blend Mode', href: '/effects/mixblendmode' },
   { name: 'Background Blend Mode', href: '/effects/bgblendmode' },
