@@ -401,8 +401,8 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/justifycontent',
-      name: 'justifycontentView',
+      path: '/flexgrid/jcontent',
+      name: 'jcontentView',
       component: () => import('@/views/flexgrid/16JustifyContentView.vue'),
       meta: {
         title: 'Justify Content',
@@ -425,9 +425,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/aligncontent',
-      name: 'aligncontentView',
-      component: () => import('@/views/flexgrid/19AlignContentView.vue'),
+      path: '/flexgrid/acontent',
+      name: 'acontentView',
+      component: () => import('@/views/flexgrid/16AlignContentView.vue'),
       meta: {
         title: 'Align Content',
       },
