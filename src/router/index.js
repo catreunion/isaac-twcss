@@ -337,9 +337,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/gridtemplatecolumns',
-      name: 'gridtemplatecolumnsView',
-      component: () => import('@/views/flexgrid/08GridTemplateColumnsView.vue'),
+      path: '/flexgrid/gtempcol',
+      name: 'gtempcolView',
+      component: () => import('@/views/flexgrid/08GTempColView.vue'),
       meta: {
         title: 'Grid Template Columns',
       },

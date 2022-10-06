@@ -27,7 +27,7 @@ const items = [
   { name: 'Flex Grow', href: '/flexgrid/flexbrow' },
   { name: 'Flex Shrink', href: '/flexgrid/flexshrink' },
   { name: 'Order', href: '/flexgrid/order' },
-  { name: 'Grid Template Columns', href: '/flexgrid/gridtemplatecolumns' },
+  { name: 'Grid Template Columns', href: '/flexgrid/gtempcol' },
   { name: 'Grid Column Start End', href: '/flexgrid/gridcolumnstartend' },
   { name: 'Grid Template Rows', href: '/flexgrid/gridtemplaterows' },
   { name: 'Grid Row Start / End', href: '/flexgrid/gridrowstartend' },
