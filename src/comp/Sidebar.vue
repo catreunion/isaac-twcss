@@ -7,7 +7,7 @@
           :to="item.href"
           :key="item.name"
           :class="
-            ('border-transparent text-gray-600 hover:bg-gray-50 hover:text-gray-900',
+            ('hover:bg-gray-150 border-transparent text-gray-600 hover:text-gray-900',
             'border-l-1 group flex items-center px-3 py-2 text-sm font-medium')
           "
         >
