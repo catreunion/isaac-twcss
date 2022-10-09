@@ -36,6 +36,7 @@ const items = [
   { name: 'Grid Auto Rows', href: '/flexgrid/gridautorows' },
   { name: 'Gap', href: '/flexgrid/gap' },
   { name: 'Justify/Align Content 🆗', href: '/flexgrid/jacontent' },
+  { name: 'Justify/Align Items 🆗', href: '/flexgrid/jaitems' },
   { name: 'Justify Items', href: '/flexgrid/justifyitems' },
   { name: 'Justify Self', href: '/flexgrid/justifyself' },
   { name: 'Align Items 😼', href: '/flexgrid/alignitems' },

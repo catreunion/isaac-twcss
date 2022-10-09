@@ -409,9 +409,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/justifyitems',
-      name: 'justifyitemsView',
-      component: () => import('@/views/flexgrid/17JustifyItemsView.vue'),
+      path: '/flexgrid/jaitems',
+      name: 'jaitemsView',
+      component: () => import('@/views/flexgrid/17JAItemsView.vue'),
       meta: {
         title: 'Justify Items',
       },
