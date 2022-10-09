@@ -337,11 +337,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/gridcols',
-      name: 'gridcolsView',
-      component: () => import('@/views/flexgrid/08gridColsView.vue'),
+      path: '/flexgrid/gridcolsrows',
+      name: 'gridcolsrowsView',
+      component: () => import('@/views/flexgrid/08gridColsRowsView.vue'),
       meta: {
-        title: 'Grid Template Columns',
+        title: 'Grid Rows/Columns',
       },
     },
     {
@@ -350,14 +350,6 @@ const router = createRouter({
       component: () => import('@/views/flexgrid/09GridColumnStartEndView.vue'),
       meta: {
         title: 'Grid Column Start End',
-      },
-    },
-    {
-      path: '/flexgrid/gridtemplaterows',
-      name: 'gridtemplaterowsView',
-      component: () => import('@/views/flexgrid/10GridTemplateRowsView.vue'),
-      meta: {
-        title: 'Grid Template Rows',
       },
     },
     {

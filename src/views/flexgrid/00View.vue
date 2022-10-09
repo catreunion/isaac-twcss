@@ -20,14 +20,14 @@
 
 <script setup>
 const items = [
-  { name: 'Flex Basis', href: '/flexgrid/flexbasis' },
-  { name: 'Flex Direction', href: '/flexgrid/flexdirection' },
+  { name: 'Flex Basis 🆗', href: '/flexgrid/flexbasis' },
+  { name: 'Flex Direction 🆗', href: '/flexgrid/flexdirection' },
   { name: 'Flex Wrap', href: '/flexgrid/flexwrap' },
   { name: 'Flex 😼', href: '/flexgrid/flex' },
   { name: 'Flex Grow', href: '/flexgrid/flexbrow' },
   { name: 'Flex Shrink', href: '/flexgrid/flexshrink' },
   { name: 'Order', href: '/flexgrid/order' },
-  { name: 'Grid Template Columns 🆗', href: '/flexgrid/gridcols' },
+  { name: 'Grid Columns/Rows 🆗', href: '/flexgrid/gridcolsrows' },
   { name: 'Grid Column Start End', href: '/flexgrid/gridcolumnstartend' },
   { name: 'Grid Template Rows', href: '/flexgrid/gridtemplaterows' },
   { name: 'Grid Row Start / End', href: '/flexgrid/gridrowstartend' },
