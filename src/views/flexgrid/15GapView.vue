@@ -14,7 +14,6 @@
 
     <h3 class="font-mono">gap-x|y-{size}</h3>
     <p>set the gap between rows and columns independently</p>
-    <h3>arbitrary values</h3>
     <br />
 
     <div class="grid gap-[2.75rem]">arbitrary values</div>
