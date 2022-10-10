@@ -2,8 +2,8 @@
   <main>
     <h1>Justify Content</h1>
     <h2>control how columns are positioned along the container's x axis</h2>
-    <h3 class="font-mono">justify-start|justify-center|justify-end|</h3>
-    <h3 class="font-mono">justify-between|justify-around|justify-evenly</h3>
+    <p class="font-mono">justify-start|justify-center|justify-end|</p>
+    <p class="font-mono">justify-between|justify-around|justify-evenly</p>
 
     <div class="grid-col-1 grid gap-8 py-8">
       <div>
@@ -78,8 +78,8 @@
 
     <h1>Align Content</h1>
     <h2>control how rows are positioned along the container's y axis</h2>
-    <h3 class="font-mono">content-start|content-center|content-end|</h3>
-    <h3 class="font-mono">content-between|content-around|content-evenly</h3>
+    <p class="font-mono">content-start|content-center|content-end|</p>
+    <p class="font-mono">content-between|content-around|content-evenly</p>
 
     <div class="grid-col-1 grid gap-8 py-8">
       <div>
