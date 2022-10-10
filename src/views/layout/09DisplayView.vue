@@ -58,7 +58,7 @@
 
     <div class="h-100 w-100 border-2 border-cyan-500 bg-cyan-300">
       <div class="flex items-center">
-        <img src="path/to/image.jpg" />
+        <img src="" />
         <div>
           <strong>Andrew Alfred</strong>
           <span>Technical advisor</span>
@@ -74,7 +74,7 @@
         Today I spent most of the day researching ways to take advantage of the fact that bottles can be
         returned for 10 cents in Michigan, but only 5 cents here.
         <span class="inline-flex items-baseline">
-          <img src="path/to/image.jpg" alt="" class="mx-1 h-5 w-5 self-center rounded-full" />
+          <img src="" alt="" class="mx-1 h-5 w-5 self-center rounded-full" />
           <span>Kramer</span>
         </span>
         keeps telling me there is no way to make it work, that he has run the numbers on every possible
