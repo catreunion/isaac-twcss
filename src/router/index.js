@@ -38,14 +38,14 @@ const router = createRouter({
         title: 'Customization',
       },
     },
-    {
-      path: '/customization/configuration',
-      name: 'configurationView',
-      component: () => import('@/views/customization/01ConfigurationView.vue'),
-      meta: {
-        title: 'Configuration',
-      },
-    },
+    // {
+    //   path: '/customization/configuration',
+    //   name: 'configurationView',
+    //   component: () => import('@/views/customization/01ConfigurationView.vue'),
+    //   meta: {
+    //     title: 'Configuration',
+    //   },
+    // },
     {
       path: '/customization/content',
       name: 'contentView',
