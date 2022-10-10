@@ -35,7 +35,7 @@ const router = createRouter({
       name: 'customizationView',
       component: () => import('@/views/customization/00View.vue'),
       meta: {
-        title: 'Configuration',
+        title: 'Customization',
       },
     },
     {
