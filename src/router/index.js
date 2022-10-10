@@ -397,7 +397,7 @@ const router = createRouter({
       name: 'jacontentView',
       component: () => import('@/views/flexgrid/16JAContentView.vue'),
       meta: {
-        title: 'Justify Content',
+        title: 'Justify/Align Content',
       },
     },
     {
@@ -405,15 +405,15 @@ const router = createRouter({
       name: 'jaitemsView',
       component: () => import('@/views/flexgrid/17JAItemsView.vue'),
       meta: {
-        title: 'Justify Items',
+        title: 'Justify/Align Items',
       },
     },
     {
-      path: '/flexgrid/justifyself',
-      name: 'justifyselfView',
-      component: () => import('@/views/flexgrid/18JustifySelfView.vue'),
+      path: '/flexgrid/jaself',
+      name: 'jaselfView',
+      component: () => import('@/views/flexgrid/18JASelfView.vue'),
       meta: {
-        title: 'Justify Self',
+        title: 'Justify/Align Self',
       },
     },
     {

@@ -41,7 +41,7 @@
 
       <div>
         <h3 class="font-mono">justify-between</h3>
-        <p>justify columns along the container’s x axis +</p>
+        <p>distribute columns along the container’s x axis +</p>
         <p>equal amount of space between each item</p>
         <div class="flex justify-between border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
@@ -53,7 +53,7 @@
 
       <div>
         <h3 class="font-mono">justify-around</h3>
-        <p>justify columns along the container’s x axis +</p>
+        <p>distribute columns along the container’s x axis +</p>
         <p>equal amount of space on each side of each item</p>
         <div class="flex justify-around border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
@@ -65,7 +65,7 @@
 
       <div>
         <h3 class="font-mono">justify-evenly</h3>
-        <p>justify columns along the container’s x axis +</p>
+        <p>distribute columns along the container’s x axis +</p>
         <p>equal amount of space around each item</p>
         <div class="flex justify-evenly border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
@@ -130,7 +130,7 @@
       <div>
         <h3 class="font-mono">content-around</h3>
         <p>distribute rows along the container’s y axis +</p>
-        <p>equal amount of space around each side of each row</p>
+        <p>equal amount of space on each side of each row</p>
         <div class="grid-col-1 grid h-80 content-around border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
