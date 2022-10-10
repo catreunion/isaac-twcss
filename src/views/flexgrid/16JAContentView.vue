@@ -85,7 +85,7 @@
       <div>
         <h3 class="font-mono">content-start</h3>
         <p>pack rows against the start of the container’s y axis</p>
-        <div class="grid h-80 grid-cols-1 content-start border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-start border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -96,7 +96,7 @@
       <div>
         <h3 class="font-mono">content-center</h3>
         <p>pack rows along the center of the container’s y axis</p>
-        <div class="grid h-80 grid-cols-1 content-center border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-center border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -107,7 +107,7 @@
       <div>
         <h3 class="font-mono">content-end</h3>
         <p>pack rows against the end of the container’s y axis</p>
-        <div class="grid h-80 grid-cols-1 content-end border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-end border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -119,7 +119,7 @@
         <h3 class="font-mono">content-between</h3>
         <p>distribute rows along the container’s y axis +</p>
         <p>equal amount of space between each row</p>
-        <div class="grid h-80 grid-cols-1 content-between border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-between border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -131,7 +131,7 @@
         <h3 class="font-mono">content-around</h3>
         <p>distribute rows along the container’s y axis +</p>
         <p>equal amount of space around each side of each row</p>
-        <div class="grid h-80 grid-cols-1 content-around border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-around border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -143,7 +143,7 @@
         <h3 class="font-mono">content-evenly</h3>
         <p>distribute rows along the container’s y axis +</p>
         <p>equal amount of space around each row</p>
-        <div class="grid h-80 grid-cols-1 content-evenly border-2 border-pink-500">
+        <div class="grid-col-1 grid h-80 content-evenly border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>

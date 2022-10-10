@@ -30,7 +30,7 @@
 
       <div>
         <h3 class="font-mono">justify-items-center</h3>
-        <p>align grid items along their inline x axis</p>
+        <p>align grid items along the center of their inline x axis</p>
         <div class="grid grid-cols-3 justify-items-center border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
