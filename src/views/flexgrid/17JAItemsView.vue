@@ -30,7 +30,7 @@
 
       <div>
         <h3 class="font-mono">justify-items-center</h3>
-        <p>align grid items along the centers of their inline x axis</p>
+        <p>align grid items at the center of their inline x axis</p>
         <div class="grid grid-cols-3 justify-items-center border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
@@ -70,7 +70,7 @@
 
       <div>
         <h3 class="font-mono">items-center</h3>
-        <p>align items along the center of the container’s y axis</p>
+        <p>align items at the center of the container’s y axis</p>
         <div class="flex items-center border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 px-2 py-4">File</div>
           <div class="w-20 border-2 border-indigo-500 px-2 py-12">Edit</div>

@@ -98,6 +98,42 @@
         <h3 class="font-mono">self-start</h3>
         <p>align an item to the start of the container’s y axis, despite the container’s align-items value</p>
       </div>
+
+      <!-- Place Items -->
+      <div>
+        <h1>Place Items</h1>
+        <h2>control how items are justified and aligned at the same time</h2>
+        <p class="font-mono">place-items-start|place-items-end|</p>
+        <p class="font-mono">place-items-center|place-items-stretch</p>
+        <div class="grid h-48 grid-cols-3 place-items-center border-2 border-pink-500">
+          <div class="border-2 border-indigo-500 p-2">File</div>
+          <div class="border-2 border-indigo-500 p-2">Edit</div>
+          <div class="border-2 border-indigo-500 p-2">View</div>
+          <div class="border-2 border-indigo-500 p-2">Mode</div>
+          <div class="border-2 border-indigo-500 p-2">Work</div>
+          <div class="border-2 border-indigo-500 p-2">Help</div>
+        </div>
+        <h3>place-items-center</h3>
+        <p>place grid items at the center of their grid areas on both axes</p>
+      </div>
+
+      <!-- Place Self -->
+      <div>
+        <h1>Place Self</h1>
+        <h2>control how an individual item is justified and aligned at the same time</h2>
+        <p class="font-mono">place-self-start|place-self-center|place-self-end|</p>
+        <p class="font-mono">place-self-stretch|place-self-auto</p>
+        <div class="grid h-48 grid-cols-3 border-2 border-pink-500">
+          <div class="border-2 border-indigo-500 p-2">File</div>
+          <div class="place-self-center border-2 border-indigo-500 p-2">Edit</div>
+          <div class="border-2 border-indigo-500 p-2">View</div>
+          <div class="border-2 border-indigo-500 p-2">Mode</div>
+          <div class="border-2 border-indigo-500 p-2">Work</div>
+          <div class="border-2 border-indigo-500 p-2">Help</div>
+        </div>
+        <h3>place-self-center</h3>
+        <p>align an item at the center on both axes</p>
+      </div>
     </div>
   </main>
 </template>

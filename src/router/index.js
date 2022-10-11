@@ -417,17 +417,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/jasummary',
-      name: 'jasummaryView',
-      component: () => import('@/views/flexgrid/19JASummaryView.vue'),
-      meta: {
-        title: 'J/A Summary',
-      },
-    },
-    {
       path: '/flexgrid/placecontent',
       name: 'placecontentView',
-      component: () => import('@/views/flexgrid/22PlaceContentView.vue'),
+      component: () => import('@/views/flexgrid/19PlaceContentView.vue'),
       meta: {
         title: 'Place Content',
       },
@@ -435,7 +427,7 @@ const router = createRouter({
     {
       path: '/flexgrid/placeitems',
       name: 'placeitemsView',
-      component: () => import('@/views/flexgrid/23PlaceItemsView.vue'),
+      component: () => import('@/views/flexgrid/20PlaceItemsView.vue'),
       meta: {
         title: 'Place Items',
       },
@@ -443,9 +435,17 @@ const router = createRouter({
     {
       path: '/flexgrid/placeself',
       name: 'placeselfView',
-      component: () => import('@/views/flexgrid/24PlaceSelfView.vue'),
+      component: () => import('@/views/flexgrid/21PlaceSelfView.vue'),
       meta: {
         title: 'Place Self',
+      },
+    },
+    {
+      path: '/flexgrid/summary',
+      name: 'summaryView',
+      component: () => import('@/views/flexgrid/22SummaryView.vue'),
+      meta: {
+        title: 'Flex/Grid Summary',
       },
     },
     /////////////////////////////////////////////////// Spacing
