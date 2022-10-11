@@ -397,7 +397,7 @@ const router = createRouter({
       name: 'jacontentView',
       component: () => import('@/views/flexgrid/16JAContentView.vue'),
       meta: {
-        title: 'Justify/Align Content',
+        title: 'J/A Content',
       },
     },
     {
@@ -405,7 +405,7 @@ const router = createRouter({
       name: 'jaitemsView',
       component: () => import('@/views/flexgrid/17JAItemsView.vue'),
       meta: {
-        title: 'Justify/Align Items',
+        title: 'J/A Items',
       },
     },
     {
@@ -413,23 +413,15 @@ const router = createRouter({
       name: 'jaselfView',
       component: () => import('@/views/flexgrid/18JASelfView.vue'),
       meta: {
-        title: 'Justify/Align Self',
+        title: 'J/A Self',
       },
     },
     {
-      path: '/flexgrid/alignitems',
-      name: 'alignitemsView',
-      component: () => import('@/views/flexgrid/20AlignItemsView.vue'),
+      path: '/flexgrid/jasummary',
+      name: 'jasummaryView',
+      component: () => import('@/views/flexgrid/19JASummaryView.vue'),
       meta: {
-        title: 'Align Items',
-      },
-    },
-    {
-      path: '/flexgrid/alignself',
-      name: 'alignselfView',
-      component: () => import('@/views/flexgrid/21AlignSelfView.vue'),
-      meta: {
-        title: 'Align Self',
+        title: 'J/A Summary',
       },
     },
     {

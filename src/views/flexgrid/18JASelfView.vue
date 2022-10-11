@@ -19,7 +19,7 @@
 
       <div>
         <h3 class="font-mono">justify-self-center</h3>
-        <p>align a grid item along the center of its inline x axis</p>
+        <p>align a grid item to the center of its inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="justify-self-center border-2 border-indigo-500 p-2">Edit</div>

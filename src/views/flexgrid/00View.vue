@@ -38,6 +38,7 @@ const items = [
   { name: 'Justify/Align Content 🆗', href: '/flexgrid/jacontent' },
   { name: 'Justify/Align Items 🆗', href: '/flexgrid/jaitems' },
   { name: 'Justify/Align Self 🆗', href: '/flexgrid/jaself' },
+  { name: 'Justify/Align Summary 🆗', href: '/flexgrid/jasummary' },
   { name: 'Place Content', href: '/flexgrid/placecontent' },
   { name: 'Place Items', href: '/flexgrid/placeitems' },
   { name: 'Place Self', href: '/flexgrid/placeself' },
