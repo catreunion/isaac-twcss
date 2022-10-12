@@ -22,11 +22,9 @@
 const items = [
   { name: 'Font 🆗', href: '/typography/font' },
   { name: 'Font Variant Numeric', href: '/typography/fontvariantnumeric' },
-  { name: 'Letter Spacing', href: '/typography/letterspacing' },
-  { name: 'Line Height', href: '/typography/lineheight' },
+  { name: 'Text', href: '/typography/text' },
   { name: 'List Style Type', href: '/typography/liststyletype' },
   { name: 'List Style Position', href: '/typography/liststyleposition' },
-  { name: 'Text Align', href: '/typography/textalign' },
   { name: 'Text Color 😼', href: '/typography/tcolor' },
   { name: 'Text Decoration', href: '/typography/textdecoration' },
   { name: 'Text Decoration Color', href: '/typography/textdecorationcolor' },

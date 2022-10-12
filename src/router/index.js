@@ -564,19 +564,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/letterspacing',
-      name: 'letterspacingView',
-      component: () => import('@/views/typography/07LetterSpacingView.vue'),
+      path: '/typography/text',
+      name: 'textView',
+      component: () => import('@/views/typography/07Text.vue'),
       meta: {
-        title: 'Letter Spacing',
-      },
-    },
-    {
-      path: '/typography/lineheight',
-      name: 'lineheightView',
-      component: () => import('@/views/typography/08LineHeightView.vue'),
-      meta: {
-        title: 'Line Height',
+        title: 'Text',
       },
     },
     {
@@ -593,14 +585,6 @@ const router = createRouter({
       component: () => import('@/views/typography/10ListStylePositionView.vue'),
       meta: {
         title: 'List Style Position',
-      },
-    },
-    {
-      path: '/typography/textalign',
-      name: 'textalignView',
-      component: () => import('@/views/typography/11TextAlignView.vue'),
-      meta: {
-        title: 'Text Align',
       },
     },
     {
