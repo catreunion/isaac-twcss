@@ -25,7 +25,6 @@ const items = [
   { name: 'Text', href: '/typography/text' },
   { name: 'List Style Type', href: '/typography/liststyletype' },
   { name: 'List Style Position', href: '/typography/liststyleposition' },
-  { name: 'Text Color 😼', href: '/typography/tcolor' },
   { name: 'Text Decoration', href: '/typography/textdecoration' },
   { name: 'Text Decoration Color', href: '/typography/textdecorationcolor' },
   { name: 'Text Decoration Style', href: '/typography/textunderlineoffset' },

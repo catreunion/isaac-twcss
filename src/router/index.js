@@ -588,14 +588,6 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/tcolor',
-      name: 'tcolorView',
-      component: () => import('@/views/typography/11TColorView.vue'),
-      meta: {
-        title: 'Text Color',
-      },
-    },
-    {
       path: '/typography/textdecoration',
       name: 'textdecorationView',
       component: () => import('@/views/typography/12TextDecorationView.vue'),
