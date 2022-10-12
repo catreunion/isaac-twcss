@@ -23,7 +23,6 @@
         <p class="text-[14px] hover:text-3xl">14px: Patrick is an obese pink starfish</p>
       </div>
 
-      <!-- Font Smoothing -->
       <div>
         <h1>Font Smoothing</h1>
         <h2 class="font-mono">antialiased|subh3ixel-antialiased</h2>
@@ -31,7 +30,6 @@
         <p class="antialiased hover:subpixel-antialiased">Patrick is an obese pink starfish</p>
       </div>
 
-      <!-- Font Style -->
       <div>
         <h1>Font Style</h1>
         <h2 class="font-mono">italic|not-italic</h2>
@@ -39,7 +37,6 @@
         <p class="not-italic hover:italic">Patrick is an obese pink starfish</p>
       </div>
 
-      <!-- Font Weight -->
       <div>
         <h1>Font Weight</h1>
         <h2 class="font-mono">font-{weight}</h2>
@@ -49,7 +46,6 @@
         <p class="font-extralight hover:font-black">Patrick is an obese pink starfish</p>
         <p class="font-light hover:font-black">Patrick is an obese pink starfish</p>
         <p class="font-normal hover:font-black">Patrick is an obese pink starfish</p>
-
         <p class="font-medium hover:font-black">Patrick is an obese pink starfish</p>
         <p class="font-semibold hover:font-black">Patrick is an obese pink starfish</p>
         <p class="font-bold hover:font-black">Patrick is an obese pink starfish</p>
