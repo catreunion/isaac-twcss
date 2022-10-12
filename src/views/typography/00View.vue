@@ -20,11 +20,7 @@
 
 <script setup>
 const items = [
-  { name: 'Font Family', href: '/typography/fontfamily' },
-  { name: 'Font Size 😼', href: '/typography/fsize' },
-  { name: 'Font Smoothing', href: '/typography/fontsmoothing' },
-  { name: 'Font Style', href: '/typography/fontstyle' },
-  { name: 'Font Weight 😼', href: '/typography/fweight' },
+  { name: 'Font 🆗', href: '/typography/font' },
   { name: 'Font Variant Numeric', href: '/typography/fontvariantnumeric' },
   { name: 'Letter Spacing', href: '/typography/letterspacing' },
   { name: 'Line Height', href: '/typography/lineheight' },

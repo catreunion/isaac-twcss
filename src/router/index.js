@@ -339,7 +339,7 @@ const router = createRouter({
     {
       path: '/flexgrid/gridcolsrows',
       name: 'gridcolsrowsView',
-      component: () => import('@/views/flexgrid/08gridColsRowsView.vue'),
+      component: () => import('@/views/flexgrid/08GridColsRowsView.vue'),
       meta: {
         title: 'Grid Rows/Columns',
       },
@@ -347,7 +347,7 @@ const router = createRouter({
     {
       path: '/flexgrid/gridcolumnstartend',
       name: 'gridcolumnstartendView',
-      component: () => import('@/views/flexgrid/09GridColumnStartEndView.vue'),
+      component: () => import('@/views/flexgrid/09GridColStartEndView.vue'),
       meta: {
         title: 'Grid Column Start End',
       },
@@ -548,51 +548,19 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/fontfamily',
-      name: 'fontfamilyView',
-      component: () => import('@/views/typography/01FontFamilyView.vue'),
+      path: '/typography/font',
+      name: 'fontView',
+      component: () => import('@/views/typography/01FontView.vue'),
       meta: {
-        title: 'Font Family',
+        title: 'Font',
       },
     },
     {
-      path: '/typography/fsize',
-      name: 'fsizeView',
-      component: () => import('@/views/typography/02FSizeView.vue'),
+      path: '/typography/variantnumeric',
+      name: 'variantnumericView',
+      component: () => import('@/views/typography/06VariantNumericView.vue'),
       meta: {
-        title: 'Font Size',
-      },
-    },
-    {
-      path: '/typography/fontsmoothing',
-      name: 'fontsmoothingView',
-      component: () => import('@/views/typography/03FontSmoothingView.vue'),
-      meta: {
-        title: 'Font Smoothing',
-      },
-    },
-    {
-      path: '/typography/fontstyle',
-      name: 'fontstyleView',
-      component: () => import('@/views/typography/04FontStyleView.vue'),
-      meta: {
-        title: 'Font Style',
-      },
-    },
-    {
-      path: '/typography/fweight',
-      name: 'fweightView',
-      component: () => import('@/views/typography/05FWeightView.vue'),
-      meta: {
-        title: 'Font Weight',
-      },
-    },
-    {
-      path: '/typography/fontvariantnumeric',
-      name: 'fontvariantnumericView',
-      component: () => import('@/views/typography/06FontVariantNumericView.vue'),
-      meta: {
-        title: 'Font Variant Numeric',
+        title: 'Variant Numeric',
       },
     },
     {
