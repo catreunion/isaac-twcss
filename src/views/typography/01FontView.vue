@@ -80,6 +80,14 @@
         <p class="leading-7">7 : {{ aboutPatrickShort }}</p>
         <p class="leading-8">8 : {{ aboutPatrickShort }}</p>
         <p class="leading-9">9 : {{ aboutPatrickShort }}</p>
+        <p class="leading-10">10 : {{ aboutPatrickShort }}</p>
+        <p class="leading-none">none : {{ aboutPatrickShort }}</p>
+        <p class="leading-tight">tight : {{ aboutPatrickShort }}</p>
+        <p class="leading-snug">snug : {{ aboutPatrickShort }}</p>
+        <p class="leading-normal">normal : {{ aboutPatrickShort }}</p>
+        <p class="leading-relaxed">relaxed : {{ aboutPatrickShort }}</p>
+        <p class="leading-loose">loose : {{ aboutPatrickShort }}</p>
+        <p class="leading-[3rem]">[3rem] : {{ aboutPatrickShort }}</p>
       </div>
 
       <div>
@@ -107,6 +115,75 @@
         <p class="text-sky-400/25">25 : {{ aboutPatrickShort }}</p>
         <p class="text-sky-400/0">0 : {{ aboutPatrickShort }}</p>
         <p class="text-[#50d71e]">[#50d71e] : {{ aboutPatrickShort }}</p>
+      </div>
+
+      <div>
+        <h1>Text Decoration</h1>
+        <h2 class="font-mono">underline|no-underline|</h2>
+        <h2 class="font-mono">line-through|overline</h2>
+        <p class="underline">underline : {{ aboutPatrickShort }}</p>
+        <p class="no-underline">no-underline : {{ aboutPatrickShort }}</p>
+        <p class="line-through">line-through : {{ aboutPatrickShort }}</p>
+        <p class="overline">overline : {{ aboutPatrickShort }}</p>
+        <a href="#" class="no-underline hover:underline">Link</a>
+      </div>
+
+      <div>
+        <h1>Text Decoration Color</h1>
+        <h2 class="font-mono">decoration-inherit|current|transparent|</h2>
+        <h2 class="font-mono">decoration-black|white</h2>
+        <h2 class="font-mono">decoration-{color}-{50|100|200|300|400|500|600|700|800|900}</h2>
+        <h3 class="font-mono">slate|gray|zinc|neutral|stone|red|</h3>
+        <h3 class="font-mono">orange|amber|yellow|lime|green|emerald|</h3>
+        <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose</h3>
+        <p class="underline decoration-pink-500">{{ aboutPatrickShort }}</p>
+      </div>
+
+      <div>
+        <h1>Text Decoration Style</h1>
+        <h2 class="font-mono">decoration-{style}</h2>
+        <h3 class="font-mono">style : solid|double|dotted|dashed|wavy</h3>
+        <p class="underline decoration-purple-500 decoration-solid">solid : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-purple-500 decoration-double">double : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-purple-500 decoration-dotted">dotted : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-purple-500 decoration-dashed">dashed : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-purple-500 decoration-wavy">wavy : {{ aboutPatrickShort }}</p>
+      </div>
+
+      <div>
+        <h1>Text Decoration Thickness</h1>
+        <h2 class="font-mono">decoration-{width}</h2>
+        <h3 class="font-mono">width : auto|from-font|0|1|2|4|8</h3>
+        <p class="underline decoration-auto">auto : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-from-font">from-font : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-0">0 : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-1">1 : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-2">2 : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-4">4 : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-8">8 : {{ aboutPatrickShort }}</p>
+        <p class="underline decoration-[3px]">[3px] : {{ aboutPatrickShort }}</p>
+      </div>
+
+      <div>
+        <h1>Text Underline Offset</h1>
+        <h2 class="font-mono">underline-offset-{width}</h2>
+        <h3 class="font-mono">width : auto|0|1|2|4|8</h3>
+        <p class="underline underline-offset-auto">auto : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-0">0 : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-1">1 : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-2">2 : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-4">4 : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-8">8 : {{ aboutPatrickShort }}</p>
+        <p class="underline underline-offset-[3px]">[3px] : {{ aboutPatrickShort }}</p>
+      </div>
+
+      <div>
+        <h1>Text Transform</h1>
+        <h2 class="font-mono">uppercase|lowercase|capitalize|normal-case</h2>
+        <p class="uppercase">uppercase : {{ aboutPatrickShort }}</p>
+        <p class="lowercase">lowercase : {{ aboutPatrickShort }}</p>
+        <p class="capitalize">capitalize : {{ aboutPatrickShort }}</p>
+        <p class="normal-case">normal-case : {{ aboutPatrickShort }}</p>
       </div>
     </div>
   </main>
