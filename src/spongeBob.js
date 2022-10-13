@@ -1,3 +1,5 @@
+export const aboutPatrickShort = 'Patrick is an obese pink starfish'
+
 export const aboutPatrickStar =
   "Patrick Star's most significant character trait is his low intelligence, which often gets him and his best friend, SpongeBob SquarePants, into trouble."
 
