@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="grid-col-1 grid gap-6 py-6">
+    <div class="grid-col-1 grid w-80 gap-6 py-6">
       <!-- Font Family -->
       <div>
         <h1>Font Family</h1>
@@ -106,7 +106,7 @@
         <p class="text-left">{{ aboutPatrickShort }}</p>
         <p class="text-center">{{ aboutPatrickShort }}</p>
         <p class="text-right">{{ aboutPatrickShort }}</p>
-        <p class="text-justify">justify : {{ aboutPatrickShort }}</p>
+        <p class="text-justify">justify : {{ aboutPatrickStar }}</p>
       </div>
 
       <!-- Text Color -->
@@ -116,13 +116,14 @@
         <h2 class="font-mono">text-{color}-{50|100|200|300|400|500|600|700|800|900}</h2>
         <h3 class="font-mono">slate|gray|zinc|neutral|stone|red|</h3>
         <h3 class="font-mono">orange|amber|yellow|lime|green|emerald|</h3>
-        <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose</h3>
-        <p class="text-sky-400 hover:text-rose-400">{{ aboutPatrickShort }}</p>
-        <p class="text-sky-400/100">100 : {{ aboutPatrickShort }}</p>
-        <p class="text-sky-400/75">75 : {{ aboutPatrickShort }}</p>
-        <p class="text-sky-400/50">50 : {{ aboutPatrickShort }}</p>
-        <p class="text-sky-400/25">25 : {{ aboutPatrickShort }}</p>
-        <p class="text-sky-400/0">0 : {{ aboutPatrickShort }}</p>
+        <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|</h3>
+        <h3 class="font-mono">fuchsia|pink|rose</h3>
+        <p class="text-indigo-500 hover:text-rose-500">{{ aboutPatrickShort }}</p>
+        <p class="text-indigo-500/100">100 : {{ aboutPatrickShort }}</p>
+        <p class="text-indigo-500/75">75 : {{ aboutPatrickShort }}</p>
+        <p class="text-indigo-500/50">50 : {{ aboutPatrickShort }}</p>
+        <p class="text-indigo-500/25">25 : {{ aboutPatrickShort }}</p>
+        <p class="text-indigo-500/0">0 : {{ aboutPatrickShort }}</p>
         <p class="text-[#50d71e]">[#50d71e] : {{ aboutPatrickShort }}</p>
       </div>
 
@@ -135,7 +136,7 @@
         <p class="no-underline">no-underline : {{ aboutPatrickShort }}</p>
         <p class="line-through">line-through : {{ aboutPatrickShort }}</p>
         <p class="overline">overline : {{ aboutPatrickShort }}</p>
-        <a href="#" class="no-underline hover:underline">Link</a>
+        <a href="#" class="underline hover:no-underline">Link</a>
       </div>
 
       <!-- Text Decoration Color -->
@@ -146,7 +147,8 @@
         <h2 class="font-mono">decoration-{color}-{50|100|200|300|400|500|600|700|800|900}</h2>
         <h3 class="font-mono">slate|gray|zinc|neutral|stone|red|</h3>
         <h3 class="font-mono">orange|amber|yellow|lime|green|emerald|</h3>
-        <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose</h3>
+        <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|</h3>
+        <h3 class="font-mono">fuchsia|pink|rose</h3>
         <p class="underline decoration-pink-500">{{ aboutPatrickShort }}</p>
       </div>
 
@@ -154,7 +156,7 @@
       <div>
         <h1>Text Decoration Style</h1>
         <h2 class="font-mono">decoration-{style}</h2>
-        <h3 class="font-mono">style : solid|double|dotted|dashed|wavy</h3>
+        <h3 class="font-mono">solid|double|dotted|dashed|wavy</h3>
         <p class="underline decoration-purple-500 decoration-solid">solid : {{ aboutPatrickShort }}</p>
         <p class="underline decoration-purple-500 decoration-double">double : {{ aboutPatrickShort }}</p>
         <p class="underline decoration-purple-500 decoration-dotted">dotted : {{ aboutPatrickShort }}</p>
@@ -166,7 +168,7 @@
       <div>
         <h1>Text Decoration Thickness</h1>
         <h2 class="font-mono">decoration-{width}</h2>
-        <h3 class="font-mono">width : auto|from-font|0|1|2|4|8</h3>
+        <h3 class="font-mono">auto|from-font|0|1|2|4|8</h3>
         <p class="underline decoration-auto">auto : {{ aboutPatrickShort }}</p>
         <p class="underline decoration-from-font">from-font : {{ aboutPatrickShort }}</p>
         <p class="underline decoration-0">0 : {{ aboutPatrickShort }}</p>
@@ -181,7 +183,7 @@
       <div>
         <h1>Text Underline Offset</h1>
         <h2 class="font-mono">underline-offset-{width}</h2>
-        <h3 class="font-mono">width : auto|0|1|2|4|8</h3>
+        <h3 class="font-mono">auto|0|1|2|4|8</h3>
         <p class="underline underline-offset-auto">auto : {{ aboutPatrickShort }}</p>
         <p class="underline underline-offset-0">0 : {{ aboutPatrickShort }}</p>
         <p class="underline underline-offset-1">1 : {{ aboutPatrickShort }}</p>
@@ -205,13 +207,15 @@
       <div class="w-96">
         <h1>Text Overflow</h1>
         <h2 class="font-mono">truncate|text-ellipsis|text-clip</h2>
-        <p class="truncate">{{ aboutPatrickShort }}</p>
-        <p class="overflow-hidden text-ellipsis">{{ aboutPatrickShort }}</p>
-        <p class="overflow-hidden text-clip">{{ aboutPatrickShort }}</p>
+        <div class="grid-col-1 grid gap-3 py-3">
+          <p class="truncate">truncate : {{ aboutPatrickStar }}</p>
+          <p class="overflow-hidden text-ellipsis">text-ellipsis : {{ aboutPatrickStar }}</p>
+          <p class="overflow-hidden text-clip">text-clip : {{ aboutPatrickStar }}</p>
+        </div>
       </div>
 
       <!-- Text Indent -->
-      <div class="w-96">
+      <div class="border-2 border-pink-500">
         <h1>Text Indent</h1>
         <h2 class="font-mono">indent-{width}</h2>
         <h3 class="font-mono">0|px|0.5|1|1.5|2|2.5|3|3.5|</h3>
@@ -223,12 +227,12 @@
       </div>
 
       <!-- Vertical Align -->
-      <div class="w-96">
+      <div>
         <h1>Vertical Align</h1>
         <h2 class="font-mono">set the vertical alignment of an inline or table-cell box</h2>
-        <h3 class="font-mono">align-top|align-middle|align-bottom|</h3>
-        <h3 class="font-mono">align-text-top|align-baseline|align-text-bottom|</h3>
-        <h3 class="font-mono">align-sub|align-super</h3>
+        <h3 class="font-mono">align-{alignment}</h3>
+        <h4 class="font-mono">baseline|top|middle|bottom|</h4>
+        <h4 class="font-mono">text-top|text-bottom|sub|super</h4>
         <span class="inline-block h-20 border-2 border-indigo-500 align-baseline">
           align-baseline : align the baseline of an element with the baseline of its parent
         </span>
@@ -254,5 +258,5 @@
 </template>
 
 <script setup>
-import { aboutPatrickShort } from '@/spongeBob'
+import { aboutPatrickShort, aboutPatrickStar } from '@/spongeBob'
 </script>
