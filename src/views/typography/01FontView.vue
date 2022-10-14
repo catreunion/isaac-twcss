@@ -1,6 +1,7 @@
 <template>
   <main>
     <div class="grid-col-1 grid gap-6 py-6">
+      <!-- Font Family -->
       <div>
         <h1>Font Family</h1>
         <h2 class="font-mono">font-{sans|serif|mono}</h2>
@@ -9,6 +10,7 @@
         <p class="font-mono">mono : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Font Size -->
       <div>
         <h1>Font Size</h1>
         <h2 class="font-mono">text-{size}</h2>
@@ -23,6 +25,7 @@
         <p class="text-[14px]">14px : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Font Smoothing -->
       <div>
         <h1>Font Smoothing</h1>
         <h2 class="font-mono">antialiased|subh3ixel-antialiased</h2>
@@ -30,6 +33,7 @@
         <p class="antialiased hover:subpixel-antialiased">antialiased : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Font Style -->
       <div>
         <h1>Font Style</h1>
         <h2 class="font-mono">italic|not-italic</h2>
@@ -37,6 +41,7 @@
         <p class="not-italic hover:italic">not-italic : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Font Weight -->
       <div>
         <h1>Font Weight</h1>
         <h2 class="font-mono">font-{weight}</h2>
@@ -54,6 +59,7 @@
         <p class="font-[1100]">[1100] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Letter Spacing -->
       <div>
         <h1>Letter Spacing</h1>
         <h2 class="font-mono">tracking-{size}</h2>
@@ -68,6 +74,7 @@
         <p class="tracking-[.25em]">[.25em] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Line Height -->
       <div>
         <h1>Line Height</h1>
         <h2 class="font-mono">leading-{size}</h2>
@@ -90,6 +97,7 @@
         <p class="text-justify leading-[3rem]">[3rem] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Align -->
       <div>
         <h1>Text Align</h1>
         <h2 class="font-mono">text-{alignment}</h2>
@@ -101,6 +109,7 @@
         <p class="text-justify">justify : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Color -->
       <div>
         <h1>Text Color</h1>
         <h2 class="font-mono">text-inherit|current|transparent|black|white</h2>
@@ -117,6 +126,7 @@
         <p class="text-[#50d71e]">[#50d71e] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Decoration -->
       <div>
         <h1>Text Decoration</h1>
         <h2 class="font-mono">underline|no-underline|</h2>
@@ -128,6 +138,7 @@
         <a href="#" class="no-underline hover:underline">Link</a>
       </div>
 
+      <!-- Text Decoration Color -->
       <div>
         <h1>Text Decoration Color</h1>
         <h2 class="font-mono">decoration-inherit|current|transparent|</h2>
@@ -139,6 +150,7 @@
         <p class="underline decoration-pink-500">{{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Decoration Style -->
       <div>
         <h1>Text Decoration Style</h1>
         <h2 class="font-mono">decoration-{style}</h2>
@@ -150,6 +162,7 @@
         <p class="underline decoration-purple-500 decoration-wavy">wavy : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Decoration Thickness -->
       <div>
         <h1>Text Decoration Thickness</h1>
         <h2 class="font-mono">decoration-{width}</h2>
@@ -164,6 +177,7 @@
         <p class="underline decoration-[3px]">[3px] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Underline Offset -->
       <div>
         <h1>Text Underline Offset</h1>
         <h2 class="font-mono">underline-offset-{width}</h2>
@@ -177,6 +191,7 @@
         <p class="underline underline-offset-[3px]">[3px] : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Transform -->
       <div>
         <h1>Text Transform</h1>
         <h2 class="font-mono">uppercase|lowercase|capitalize|normal-case</h2>
@@ -186,6 +201,7 @@
         <p class="normal-case">normal-case : {{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Overflow -->
       <div class="w-96">
         <h1>Text Overflow</h1>
         <h2 class="font-mono">truncate|text-ellipsis|text-clip</h2>
@@ -194,6 +210,7 @@
         <p class="overflow-hidden text-clip">{{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Text Indent -->
       <div class="w-96">
         <h1>Text Indent</h1>
         <h2 class="font-mono">indent-{width}</h2>
@@ -205,6 +222,7 @@
         <p class="indent-[20%]">{{ aboutPatrickShort }}</p>
       </div>
 
+      <!-- Vertical Align -->
       <div class="w-96">
         <h1>Vertical Align</h1>
         <h2 class="font-mono">set the vertical alignment of an inline or table-cell box</h2>

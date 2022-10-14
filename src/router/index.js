@@ -564,14 +564,6 @@ const router = createRouter({
       },
     },
     {
-      path: '/typography/text',
-      name: 'textView',
-      component: () => import('@/views/typography/07Text.vue'),
-      meta: {
-        title: 'Text',
-      },
-    },
-    {
       path: '/typography/liststyletype',
       name: 'liststyletypeView',
       component: () => import('@/views/typography/09ListStyleTypeView.vue'),
@@ -585,78 +577,6 @@ const router = createRouter({
       component: () => import('@/views/typography/10ListStylePositionView.vue'),
       meta: {
         title: 'List Style Position',
-      },
-    },
-    {
-      path: '/typography/textdecoration',
-      name: 'textdecorationView',
-      component: () => import('@/views/typography/12TextDecorationView.vue'),
-      meta: {
-        title: 'Text Decoration',
-      },
-    },
-    {
-      path: '/typography/textdecorationcolor',
-      name: 'textdecorationcolorView',
-      component: () => import('@/views/typography/13TextDecorationColorView.vue'),
-      meta: {
-        title: 'Text Decoration Color',
-      },
-    },
-    {
-      path: '/typography/textdecorationstyle',
-      name: 'textdecorationstyleView',
-      component: () => import('@/views/typography/14TextDecorationStyleView.vue'),
-      meta: {
-        title: 'Text Decoration Style',
-      },
-    },
-    {
-      path: '/typography/textdecorationthickness',
-      name: 'textdecorationthicknessView',
-      component: () => import('@/views/typography/15TextDecorationThicknessView.vue'),
-      meta: {
-        title: 'Text Decoration Thickness',
-      },
-    },
-    {
-      path: '/typography/textunderlineoffset',
-      name: 'textunderlineoffsetView',
-      component: () => import('@/views/typography/16TextUnderlineOffsetView.vue'),
-      meta: {
-        title: 'Text Underline Offset',
-      },
-    },
-    {
-      path: '/typography/ttransform',
-      name: 'ttransformView',
-      component: () => import('@/views/typography/17TTransform.vue'),
-      meta: {
-        title: 'Text Transform',
-      },
-    },
-    {
-      path: '/typography/textoverflow',
-      name: 'textoverflowView',
-      component: () => import('@/views/typography/18TextOverflowView.vue'),
-      meta: {
-        title: 'Text Overflow',
-      },
-    },
-    {
-      path: '/typography/textindent',
-      name: 'textindentView',
-      component: () => import('@/views/typography/19TextIndentView.vue'),
-      meta: {
-        title: 'Text Indent',
-      },
-    },
-    {
-      path: '/typography/verticalalign',
-      name: 'verticalalignView',
-      component: () => import('@/views/typography/20VerticalAlignView.vue'),
-      meta: {
-        title: 'Vertical Align',
       },
     },
     {
