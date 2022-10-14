@@ -73,28 +73,28 @@
         <h2 class="font-mono">leading-{size}</h2>
         <h3 class="font-mono">3|4|5|6|7|8|9|10</h3>
         <h3 class="font-mono">none|tight|snug|normal|relaxed|loose</h3>
-        <p class="leading-3">3 : {{ aboutPatrickShort }}</p>
-        <p class="leading-4">4 : {{ aboutPatrickShort }}</p>
-        <p class="leading-5">5 : {{ aboutPatrickShort }}</p>
-        <p class="leading-6">6 : {{ aboutPatrickShort }}</p>
-        <p class="leading-7">7 : {{ aboutPatrickShort }}</p>
-        <p class="leading-8">8 : {{ aboutPatrickShort }}</p>
-        <p class="leading-9">9 : {{ aboutPatrickShort }}</p>
-        <p class="leading-10">10 : {{ aboutPatrickShort }}</p>
-        <p class="leading-none">none : {{ aboutPatrickShort }}</p>
-        <p class="leading-tight">tight : {{ aboutPatrickShort }}</p>
-        <p class="leading-snug">snug : {{ aboutPatrickShort }}</p>
-        <p class="leading-normal">normal : {{ aboutPatrickShort }}</p>
-        <p class="leading-relaxed">relaxed : {{ aboutPatrickShort }}</p>
-        <p class="leading-loose">loose : {{ aboutPatrickShort }}</p>
-        <p class="leading-[3rem]">[3rem] : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-3">3 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-4">4 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-5">5 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-6">6 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-7">7 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-8">8 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-9">9 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-10">10 : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-none">none : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-tight">tight : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-snug">snug : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-normal">normal : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-relaxed">relaxed : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-loose">loose : {{ aboutPatrickShort }}</p>
+        <p class="text-justify leading-[3rem]">[3rem] : {{ aboutPatrickShort }}</p>
       </div>
 
       <div>
         <h1>Text Align</h1>
         <h2 class="font-mono">text-{alignment}</h2>
-        <h3 class="font-mono">left|center|right|justify|</h3>
-        <h3 class="font-mono">start|end</h3>
+        <h3 class="font-mono">left|center|right|</h3>
+        <h3 class="font-mono">justify|start|end</h3>
         <p class="text-left">{{ aboutPatrickShort }}</p>
         <p class="text-center">{{ aboutPatrickShort }}</p>
         <p class="text-right">{{ aboutPatrickShort }}</p>
@@ -103,12 +103,12 @@
 
       <div>
         <h1>Text Color</h1>
-        <h2 class="font-mono">text-inherit, text-current, text-transparent, text-black, text-white</h2>
+        <h2 class="font-mono">text-inherit|current|transparent|black|white</h2>
         <h2 class="font-mono">text-{color}-{50|100|200|300|400|500|600|700|800|900}</h2>
         <h3 class="font-mono">slate|gray|zinc|neutral|stone|red|</h3>
         <h3 class="font-mono">orange|amber|yellow|lime|green|emerald|</h3>
         <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose</h3>
-        <p class="text-sky-400">{{ aboutPatrickShort }}</p>
+        <p class="text-sky-400 hover:text-rose-400">{{ aboutPatrickShort }}</p>
         <p class="text-sky-400/100">100 : {{ aboutPatrickShort }}</p>
         <p class="text-sky-400/75">75 : {{ aboutPatrickShort }}</p>
         <p class="text-sky-400/50">50 : {{ aboutPatrickShort }}</p>
@@ -184,6 +184,52 @@
         <p class="lowercase">lowercase : {{ aboutPatrickShort }}</p>
         <p class="capitalize">capitalize : {{ aboutPatrickShort }}</p>
         <p class="normal-case">normal-case : {{ aboutPatrickShort }}</p>
+      </div>
+
+      <div class="w-96">
+        <h1>Text Overflow</h1>
+        <h2 class="font-mono">truncate|text-ellipsis|text-clip</h2>
+        <p class="truncate">{{ aboutPatrickShort }}</p>
+        <p class="overflow-hidden text-ellipsis">{{ aboutPatrickShort }}</p>
+        <p class="overflow-hidden text-clip">{{ aboutPatrickShort }}</p>
+      </div>
+
+      <div class="w-96">
+        <h1>Text Indent</h1>
+        <h2 class="font-mono">indent-{width}</h2>
+        <h3 class="font-mono">0|px|0.5|1|1.5|2|2.5|3|3.5|</h3>
+        <h3 class="font-mono">4|5|6|7|8|9|10|11|12|14|16|</h3>
+        <h3 class="font-mono">20|24|28|32|36|40|44|48|52|56|</h3>
+        <h3 class="font-mono">60|64|72|80|96</h3>
+        <p class="indent-8">{{ aboutPatrickShort }}</p>
+        <p class="indent-[20%]">{{ aboutPatrickShort }}</p>
+      </div>
+
+      <div class="w-96">
+        <h1>Vertical Align</h1>
+        <h2 class="font-mono">set the vertical alignment of an inline or table-cell box</h2>
+        <h3 class="font-mono">align-top|align-middle|align-bottom|</h3>
+        <h3 class="font-mono">align-text-top|align-baseline|align-text-bottom|</h3>
+        <h3 class="font-mono">align-sub|align-super</h3>
+        <span class="inline-block h-20 border-2 border-indigo-500 align-baseline">
+          align-baseline : align the baseline of an element with the baseline of its parent
+        </span>
+        <p class="inline-block h-20 border-2 border-indigo-500 align-top">
+          align-top : align the top of an element and its descendants with the top of the entire line
+        </p>
+        <p class="inline-block h-20 border-2 border-indigo-500 align-middle">
+          align-middle : align the middle of an element with the baseline plus half the x-height of the parent
+        </p>
+        <p class="inline-block h-20 border-2 border-indigo-500 align-bottom">
+          align-bottom : align the bottom of an element and its descendants with the bottom of the entire line
+        </p>
+        <p class="inline-block h-20 border-2 border-indigo-500 align-text-top">
+          align-text-top : align the top of an element with the top of the parent element’s font
+        </p>
+        <p class="inline-block h-20 border-2 border-indigo-500 align-text-bottom">
+          align-text-bottom : align the bottom of an element with the bottom of the parent element’s font
+        </p>
+        <p class="h-20 border-2 border-indigo-500 align-[4px]">{{ aboutPatrickShort }}</p>
       </div>
     </div>
   </main>
