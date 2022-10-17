@@ -4,8 +4,8 @@
       <div>
         <h1>Grid Template Columns</h1>
         <h2>create a grid layout with n equally sized columns</h2>
-        <p class="font-mono">grid-cols-{n}</p>
-        <p class="font-mono">n : 1|2|3|4|5|6|7|8|9|10|11|12|none</p>
+        <h3 class="font-mono">grid-cols-{n}</h3>
+        <h4 class="font-mono">1|2|3|4|5|6|7|8|9|10|11|12|none</h4>
         <div
           class="grid grid-cols-1 gap-2 border-2 border-pink-500 p-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
         >
@@ -19,8 +19,8 @@
       <div>
         <h1>Grid Template Rows</h1>
         <h2>create a grid layout with n equally sized rows</h2>
-        <p class="font-mono">grid-rows-{n}</p>
-        <p class="font-mono">n : 1|2|3|4|5|6|none</p>
+        <h3 class="font-mono">grid-rows-{n}</h3>
+        <h4 class="font-mono">1|2|3|4|5|6|none</h4>
         <div
           class="grid grid-flow-col grid-rows-1 gap-2 border-2 border-pink-500 p-2 md:grid-rows-2 lg:grid-rows-3 xl:grid-rows-4"
         >

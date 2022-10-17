@@ -341,7 +341,7 @@ const router = createRouter({
       name: 'gridcolsrowsView',
       component: () => import('@/views/flexgrid/08GridColsRowsView.vue'),
       meta: {
-        title: 'Grid Rows/Columns',
+        title: 'Grid Columns/Rows',
       },
     },
     {
