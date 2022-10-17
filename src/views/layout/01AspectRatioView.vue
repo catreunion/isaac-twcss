@@ -73,10 +73,10 @@
             <h2>1|2|3|4|5|6|7|8|9|10|11|12|auto</h2>
             <h3>set the number of columns that should be created for the content within an element</h3>
             <h3>the column width will be automatically adjusted to accommodate that number</h3>
-            <div class="... columns-3">
-              <img class="aspect-video ... w-full" src="..." />
-              <img class="aspect-square ... w-full" src="..." />
-              <img class="aspect-auto ... w-full" src="..." />
+            <div class="columns-3">
+              <img class="aspect-video w-full" src="" />
+              <img class="aspect-square w-full" src="" />
+              <img class="aspect-auto w-full" src="" />
             </div>
           </div>
 
@@ -87,18 +87,18 @@
               set the ideal column width for the content within an element, with the number of columns (the
               count) automatically adjusting to accommodate that value
             </h3>
-            <div class="... columns-3xs">
-              <img class="aspect-video ... w-full" src="..." />
-              <img class="aspect-square ... w-full" src="..." />
-              <img class="aspect-auto ... w-full" src="..." />
+            <div class="columns-3xs">
+              <img class="aspect-video w-full" src="" />
+              <img class="aspect-square w-full" src="" />
+              <img class="aspect-auto w-full" src="" />
             </div>
           </div>
 
           <div>
-            <div class="... columns-3 gap-8">
-              <img class="aspect-video ... w-full" src="..." />
-              <img class="aspect-square ... w-full" src="..." />
-              <img class="aspect-auto ... w-full" src="..." />
+            <div class="columns-3 gap-8">
+              <img class="aspect-video w-full" src="" />
+              <img class="aspect-square w-full" src="" />
+              <img class="aspect-auto w-full" src="" />
             </div>
           </div>
 
