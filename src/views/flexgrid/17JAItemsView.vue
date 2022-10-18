@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="w-96">
     <h1>Justify Items</h1>
     <h2>control how grid items are aligned along their inline x axis</h2>
     <h3 class="font-mono">justify-items-{x}</h3>
@@ -8,7 +8,7 @@
     <div class="grid-col-1 grid gap-6 py-6">
       <div>
         <h5 class="font-mono">justify-items-start</h5>
-        <p>align grid items against the start of their inline x axis</p>
+        <p>align grid items at the start of their inline x axis</p>
         <div class="grid grid-cols-3 justify-items-start border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
@@ -19,7 +19,7 @@
 
       <div>
         <h5 class="font-mono">justify-items-end</h5>
-        <p>align grid items against the end of their inline x axis</p>
+        <p>align grid items at the end of their inline x axis</p>
         <div class="grid grid-cols-3 justify-items-end border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
@@ -53,13 +53,13 @@
 
     <h1>Align Items</h1>
     <h2>control how items are aligned along the container's y axis</h2>
-    <h3 class="font-mono">items-{x}</h3>
+    <h3 class="font-mono">items-{y}</h3>
     <h4 class="font-mono">start|center|end|baseline|stretch</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
       <div>
         <h5 class="font-mono">items-start</h5>
-        <p>align items against the start of the container’s y axis</p>
+        <p>align items at the start of the container’s y axis</p>
         <div class="flex items-start border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 px-2 py-4">File</div>
           <div class="w-20 border-2 border-indigo-500 px-2 py-12">Edit</div>
@@ -81,7 +81,7 @@
 
       <div>
         <h5 class="font-mono">items-end</h5>
-        <p>align items against the end of the container’s y axis</p>
+        <p>align items at the end of the container’s y axis</p>
         <div class="flex items-end border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 px-2 py-4">File</div>
           <div class="w-20 border-2 border-indigo-500 px-2 py-12">Edit</div>

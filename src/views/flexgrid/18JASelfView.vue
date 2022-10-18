@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="w-96">
     <h1>Justify Self</h1>
     <h2>control how an individual grid item is aligned along its inline x axis</h2>
     <h3 class="font-mono">justify-self-{x}</h3>
@@ -8,7 +8,7 @@
     <div class="grid-col-1 grid gap-6 py-6">
       <div>
         <h5 class="font-mono">justify-self-start</h5>
-        <p>align an individual grid item against the start of its inline x axis</p>
+        <p>align an individual grid item at the start of its inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="justify-self-start border-2 border-indigo-500 p-2">Edit</div>
@@ -30,7 +30,7 @@
 
       <div>
         <h5 class="font-mono">justify-self-end</h5>
-        <p>align an individual grid item against the end of its inline x axis</p>
+        <p>align an individual grid item at the end of its inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="justify-self-end border-2 border-indigo-500 p-2">Edit</div>
@@ -64,14 +64,14 @@
 
     <h1>Align Self</h1>
     <h2>control how an individual flex/grid item is aligned along its container's y axis</h2>
-    <h3 class="font-mono">self-{x}</h3>
+    <h3 class="font-mono">self-{y}</h3>
     <h4 class="font-mono">start|center|end|baseline|stretch|auto</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
       <div>
         <h5 class="font-mono">self-start</h5>
         <p>
-          align an individual item to the start of the container’s y axis, despite the container’s align-items
+          align an individual item at the start of the container’s y axis, despite the container’s align-items
           value
         </p>
         <div class="flex h-20 items-stretch border-2 border-pink-500">
@@ -85,7 +85,7 @@
       <div>
         <h5 class="font-mono">self-center</h5>
         <p>
-          align an individual item along the center of the container’s y axis, despite the container’s
+          align an individual item at the center of the container’s y axis, despite the container’s
           align-items value
         </p>
         <div class="flex h-20 items-stretch border-2 border-pink-500">
@@ -99,7 +99,7 @@
       <div>
         <h5 class="font-mono">self-end</h5>
         <p>
-          align an individual item to the end of the container’s y axis, despite the container’s align-items
+          align an individual item at the end of the container’s y axis, despite the container’s align-items
           value
         </p>
         <div class="flex h-20 items-stretch border-2 border-pink-500">

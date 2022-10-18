@@ -21,9 +21,9 @@
       <div>
         <h1>Align Content</h1>
         <h2>control how rows are positioned along the container's y axis</h2>
-        <h3 class="font-mono">content-{x}</h3>
+        <h3 class="font-mono">content-{y}</h3>
         <h4 class="font-mono">start|center|end|between|around|evenly</h4>
-        <div class="grid-col-1 grid h-80 content-evenly border-2 border-pink-500">
+        <div class="grid-col-1 grid h-56 content-evenly border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -53,7 +53,7 @@
       <div>
         <h1>Align Items</h1>
         <h2>control how items are aligned along the container's y axis</h2>
-        <h3 class="font-mono">items-{x}</h3>
+        <h3 class="font-mono">items-{y}</h3>
         <h4 class="font-mono">start|center|end|baseline|stretch</h4>
         <div class="flex items-start border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 px-2 py-4">File</div>
@@ -62,7 +62,7 @@
           <div class="w-20 border-2 border-indigo-500 px-2 py-10">Help</div>
         </div>
         <h5 class="font-mono">items-start</h5>
-        <p>align items against the start of the container’s y axis</p>
+        <p>align items at the start of the container’s y axis</p>
       </div>
 
       <!-- Justify Self -->
@@ -78,14 +78,14 @@
           <div class="border-2 border-indigo-500 p-2">Help</div>
         </div>
         <h5 class="font-mono">justify-self-start</h5>
-        <p>align an individual grid item against the start of its inline x axis</p>
+        <p>align an individual grid item at the start of its inline x axis</p>
       </div>
 
       <!-- Align Self -->
       <div>
         <h1>Align Self</h1>
         <h2>control how an individual flex/grid item is aligned along its container's y axis</h2>
-        <h3 class="font-mono">self-{x}</h3>
+        <h3 class="font-mono">self-{y}</h3>
         <h4 class="font-mono">start|center|end|baseline|stretch|auto</h4>
         <div class="flex h-20 items-stretch border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
@@ -95,18 +95,33 @@
         </div>
         <h5 class="font-mono">self-start</h5>
         <p>
-          align an individual item to the start of the container’s y axis, despite the container’s align-items
+          align an individual item at the start of the container’s y axis, despite the container’s align-items
           value
         </p>
+      </div>
+
+      <!-- Place Content -->
+      <div>
+        <h1>Place Content</h1>
+        <h2>control how content is justified and aligned at the same time</h2>
+        <h3 class="font-mono">place-content-{p}</h3>
+        <h4 class="font-mono">start|center|end|between|stretch|around|evenly</h4>
+        <div class="grid h-48 grid-cols-2 place-content-evenly gap-2 border-2 border-pink-500">
+          <div class="border-2 border-indigo-500 p-2">File</div>
+          <div class="border-2 border-indigo-500 p-2">Edit</div>
+          <div class="border-2 border-indigo-500 p-2">View</div>
+          <div class="border-2 border-indigo-500 p-2">Help</div>
+        </div>
+        <h5 class="font-mono">place-content-evenly</h5>
       </div>
 
       <!-- Place Items -->
       <div>
         <h1>Place Items</h1>
         <h2>control how items are justified and aligned at the same time</h2>
-        <p class="font-mono">place-items-start|place-items-end|</p>
-        <p class="font-mono">place-items-center|place-items-stretch</p>
-        <div class="grid h-48 grid-cols-3 place-items-center border-2 border-pink-500">
+        <h3 class="font-mono">place-items-{p}</h3>
+        <h4 class="font-mono">start|end|center|stretch</h4>
+        <div class="grid h-48 grid-cols-3 place-items-center gap-2 border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
           <div class="border-2 border-indigo-500 p-2">View</div>
@@ -114,7 +129,7 @@
           <div class="border-2 border-indigo-500 p-2">Work</div>
           <div class="border-2 border-indigo-500 p-2">Help</div>
         </div>
-        <h3>place-items-center</h3>
+        <h5 class="font-mono">place-items-center</h5>
         <p>place grid items at the center of their grid areas on both axes</p>
       </div>
 
@@ -122,9 +137,9 @@
       <div>
         <h1>Place Self</h1>
         <h2>control how an individual item is justified and aligned at the same time</h2>
-        <p class="font-mono">place-self-start|place-self-center|place-self-end|</p>
-        <p class="font-mono">place-self-stretch|place-self-auto</p>
-        <div class="grid h-48 grid-cols-3 border-2 border-pink-500">
+        <h3 class="font-mono">place-self-{p}</h3>
+        <h4 class="font-mono">start|center|end|stretch|auto</h4>
+        <div class="grid h-48 grid-cols-3 gap-2 border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="place-self-center border-2 border-indigo-500 p-2">Edit</div>
           <div class="border-2 border-indigo-500 p-2">View</div>
@@ -132,7 +147,7 @@
           <div class="border-2 border-indigo-500 p-2">Work</div>
           <div class="border-2 border-indigo-500 p-2">Help</div>
         </div>
-        <h3>place-self-center</h3>
+        <h5 class="font-mono">place-self-center</h5>
         <p>align an item at the center on both axes</p>
       </div>
     </div>
