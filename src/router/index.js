@@ -337,8 +337,8 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/gridcolrowse',
-      name: 'gridcolrowseView',
+      path: '/flexgrid/gridcrse',
+      name: 'gridcrseView',
       component: () => import('@/views/flexgrid/09GridColRowSEView.vue'),
       meta: {
         title: 'Grid Column/Row Start/End',
@@ -366,14 +366,6 @@ const router = createRouter({
       component: () => import('@/views/flexgrid/14GridAutoRowsView.vue'),
       meta: {
         title: 'Grid Auto Rows',
-      },
-    },
-    {
-      path: '/flexgrid/gap',
-      name: 'gapView',
-      component: () => import('@/views/flexgrid/15GapView.vue'),
-      meta: {
-        title: 'Gap',
       },
     },
     {
