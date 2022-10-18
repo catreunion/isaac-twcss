@@ -20,7 +20,7 @@
 
 <script setup>
 const items = [
-  { name: 'Flex Basis 🆗', href: '/flexgrid/flexbasis' },
+  { name: 'Flex', href: '/flexgrid/flex' },
   { name: 'Flex Direction 🆗', href: '/flexgrid/flexdirection' },
   { name: 'Flex Wrap', href: '/flexgrid/flexwrap' },
   { name: 'Flex 😼', href: '/flexgrid/flex' },

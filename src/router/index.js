@@ -281,33 +281,9 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/flexbasis',
-      name: 'flexbasisView',
-      component: () => import('@/views/flexgrid/01FlexBasisView.vue'),
-      meta: {
-        title: 'Flex Basis',
-      },
-    },
-    {
-      path: '/flexgrid/flexdirection',
-      name: 'flexdirectionView',
-      component: () => import('@/views/flexgrid/02FlexDirectionView.vue'),
-      meta: {
-        title: 'Flex Direction',
-      },
-    },
-    {
-      path: '/flexgrid/flexwrap',
-      name: 'flexwrapView',
-      component: () => import('@/views/flexgrid/03FlexWrapView.vue'),
-      meta: {
-        title: 'Flex Wrap',
-      },
-    },
-    {
       path: '/flexgrid/flex',
       name: 'flexView',
-      component: () => import('@/views/flexgrid/04FlexView.vue'),
+      component: () => import('@/views/flexgrid/01Flex.vue'),
       meta: {
         title: 'Flex',
       },
