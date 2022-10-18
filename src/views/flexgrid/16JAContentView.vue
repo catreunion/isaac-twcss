@@ -41,8 +41,7 @@
 
       <div>
         <h5 class="font-mono">justify-between</h5>
-        <p>distribute columns along the container’s x axis +</p>
-        <p>equal amount of space between each item</p>
+        <p>equal amount of space between each item along the container’s x axis</p>
         <div class="flex justify-between border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
@@ -53,8 +52,7 @@
 
       <div>
         <h5 class="font-mono">justify-around</h5>
-        <p>distribute columns along the container’s x axis +</p>
-        <p>equal amount of space on each side of each item</p>
+        <p>equal amount of space on each side of each item along the container’s x axis</p>
         <div class="flex justify-around border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
@@ -65,8 +63,7 @@
 
       <div>
         <h5 class="font-mono">justify-evenly</h5>
-        <p>distribute columns along the container’s x axis +</p>
-        <p>equal amount of space around each item</p>
+        <p>equal amount of space around each item along the container’s x axis</p>
         <div class="flex justify-evenly border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
@@ -117,8 +114,7 @@
 
       <div>
         <h5 class="font-mono">content-between</h5>
-        <p>distribute rows along the container’s y axis +</p>
-        <p>equal amount of space between each row</p>
+        <p>equal amount of space between each row along the container’s y axis</p>
         <div class="grid-col-1 grid h-80 content-between border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
@@ -129,8 +125,7 @@
 
       <div>
         <h5 class="font-mono">content-around</h5>
-        <p>distribute rows along the container’s y axis +</p>
-        <p>equal amount of space on each side of each row</p>
+        <p>equal amount of space on each side of each row along the container’s y axis</p>
         <div class="grid-col-1 grid h-80 content-around border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
@@ -141,8 +136,7 @@
 
       <div>
         <h5 class="font-mono">content-evenly</h5>
-        <p>distribute rows along the container’s y axis +</p>
-        <p>equal amount of space around each row</p>
+        <p>equal amount of space around each row along the container’s y axis</p>
         <div class="grid-col-1 grid h-80 content-evenly border-2 border-pink-500">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>

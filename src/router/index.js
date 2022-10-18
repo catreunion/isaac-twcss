@@ -409,19 +409,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/placecontent',
-      name: 'placecontentView',
-      component: () => import('@/views/flexgrid/19PlaceContentView.vue'),
+      path: '/flexgrid/placecontentitems',
+      name: 'placecontentitemsView',
+      component: () => import('@/views/flexgrid/19PlaceContentItemsView.vue'),
       meta: {
-        title: 'Place Content',
-      },
-    },
-    {
-      path: '/flexgrid/placeitems',
-      name: 'placeitemsView',
-      component: () => import('@/views/flexgrid/20PlaceItemsView.vue'),
-      meta: {
-        title: 'Place Items',
+        title: 'Place Content/Items',
       },
     },
     {
