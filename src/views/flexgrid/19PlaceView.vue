@@ -19,7 +19,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="border-2 border-green-500 p-2">
             <h5 class="font-mono">place-content-center</h5>
             <div class="grid h-40 grid-cols-2 place-content-center gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
@@ -59,7 +59,7 @@
             </div>
           </div>
 
-          <div class="border-2 border-green-500 p-2">
+          <div>
             <h5 class="font-mono">place-content-evenly</h5>
             <div class="grid h-48 grid-cols-2 place-content-evenly gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
@@ -159,7 +159,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="border-2 border-green-500 p-2">
             <h5 class="font-mono">place-self-center</h5>
             <div class="grid h-48 grid-cols-3 gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
@@ -183,7 +183,7 @@
             </div>
           </div>
 
-          <div class="border-2 border-green-500 p-2">
+          <div>
             <h5 class="font-mono">place-self-stretch</h5>
             <div class="grid h-48 grid-cols-3 gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
