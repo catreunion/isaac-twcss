@@ -6,7 +6,7 @@
     <h4 class="font-mono">start|center|end|stretch|auto</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">justify-self-start</h5>
         <p>align an individual grid item at the start of its inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
@@ -19,7 +19,7 @@
 
       <div>
         <h5 class="font-mono">justify-self-center</h5>
-        <p>align an individual grid item to the center of its inline x axis</p>
+        <p>align an individual grid item at the center of its inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="justify-self-center border-2 border-indigo-500 p-2">Edit</div>
@@ -68,7 +68,7 @@
     <h4 class="font-mono">start|center|end|baseline|stretch|auto</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">self-start</h5>
         <p>
           align an individual item at the start of the container’s y axis, despite the container’s align-items

@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">justify-items-stretch</h5>
         <p>stretch grid items along their inline x axis</p>
         <div class="grid grid-cols-3 justify-items-stretch border-2 border-pink-500">
@@ -57,7 +57,7 @@
     <h4 class="font-mono">start|center|end|baseline|stretch</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">items-start</h5>
         <p>align items at the start of the container’s y axis</p>
         <div class="flex items-start border-2 border-pink-500">

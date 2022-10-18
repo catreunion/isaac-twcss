@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">justify-evenly</h5>
         <p>equal amount of space around each item along the container’s x axis</p>
         <div class="flex justify-evenly border-2 border-pink-500">
@@ -134,7 +134,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="border-2 border-green-500 p-2">
         <h5 class="font-mono">content-evenly</h5>
         <p>equal amount of space around each row along the container’s y axis</p>
         <div class="grid-col-1 grid h-56 content-evenly border-2 border-pink-500">

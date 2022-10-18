@@ -409,19 +409,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/placecontentitems',
-      name: 'placecontentitemsView',
-      component: () => import('@/views/flexgrid/19PlaceContentItemsView.vue'),
+      path: '/flexgrid/place',
+      name: 'placeView',
+      component: () => import('@/views/flexgrid/19PlaceView.vue'),
       meta: {
-        title: 'Place Content/Items',
-      },
-    },
-    {
-      path: '/flexgrid/placeself',
-      name: 'placeselfView',
-      component: () => import('@/views/flexgrid/21PlaceSelfView.vue'),
-      meta: {
-        title: 'Place Self',
+        title: 'Place',
       },
     },
     {
@@ -429,7 +421,7 @@ const router = createRouter({
       name: 'summaryView',
       component: () => import('@/views/flexgrid/22SummaryView.vue'),
       meta: {
-        title: 'Flex/Grid Summary',
+        title: 'Summary',
       },
     },
     /////////////////////////////////////////////////// Spacing

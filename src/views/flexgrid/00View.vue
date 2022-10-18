@@ -34,11 +34,10 @@ const items = [
   { name: 'Grid Auto Columns', href: '/flexgrid/gridautocolumns' },
   { name: 'Grid Auto Rows', href: '/flexgrid/gridautorows' },
   { name: 'Gap 🆗', href: '/flexgrid/gap' },
-  { name: 'Justify/Align Content 🆗', href: '/flexgrid/jacontent' },
-  { name: 'Justify/Align Items 🆗', href: '/flexgrid/jaitems' },
-  { name: 'Justify/Align Self 🆗', href: '/flexgrid/jaself' },
-  { name: 'Place Content/Items', href: '/flexgrid/placecontentitems' },
-  { name: 'Place Self 🆗', href: '/flexgrid/placeself' },
-  { name: 'Flex/Grid Summary 🆗', href: '/flexgrid/summary' },
+  { name: 'Justify/Align Content', href: '/flexgrid/jacontent' },
+  { name: 'Justify/Align Items', href: '/flexgrid/jaitems' },
+  { name: 'Justify/Align Self', href: '/flexgrid/jaself' },
+  { name: 'Place', href: '/flexgrid/place' },
+  { name: 'Summary', href: '/flexgrid/summary' },
 ]
 </script>

@@ -6,7 +6,7 @@
         <h1>Place Content</h1>
         <h2>control how content is justified and aligned at the same time</h2>
         <h3 class="font-mono">place-content-{p}</h3>
-        <h4 class="font-mono">start|center|end|between|stretch|around|evenly</h4>
+        <h4 class="font-mono">start|center|end|between|around|evenly|stretch</h4>
 
         <div class="grid-col-1 grid gap-3 py-3">
           <div>
@@ -50,16 +50,6 @@
           </div>
 
           <div>
-            <h5 class="font-mono">place-content-stretch</h5>
-            <div class="grid h-48 grid-cols-2 place-content-stretch gap-2 border-2 border-pink-500">
-              <div class="border-2 border-indigo-500 p-2">File</div>
-              <div class="border-2 border-indigo-500 p-2">Edit</div>
-              <div class="border-2 border-indigo-500 p-2">View</div>
-              <div class="border-2 border-indigo-500 p-2">Help</div>
-            </div>
-          </div>
-
-          <div>
             <h5 class="font-mono">place-content-around</h5>
             <div class="grid h-48 grid-cols-2 place-content-around gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
@@ -69,9 +59,19 @@
             </div>
           </div>
 
-          <div>
+          <div class="border-2 border-green-500 p-2">
             <h5 class="font-mono">place-content-evenly</h5>
             <div class="grid h-48 grid-cols-2 place-content-evenly gap-2 border-2 border-pink-500">
+              <div class="border-2 border-indigo-500 p-2">File</div>
+              <div class="border-2 border-indigo-500 p-2">Edit</div>
+              <div class="border-2 border-indigo-500 p-2">View</div>
+              <div class="border-2 border-indigo-500 p-2">Help</div>
+            </div>
+          </div>
+
+          <div>
+            <h5 class="font-mono">place-content-stretch</h5>
+            <div class="grid h-48 grid-cols-2 place-content-stretch gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
               <div class="border-2 border-indigo-500 p-2">Edit</div>
               <div class="border-2 border-indigo-500 p-2">View</div>
@@ -113,7 +113,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="border-2 border-green-500 p-2">
             <h5 class="font-mono">place-items-center</h5>
             <div class="grid h-48 grid-cols-3 place-items-center gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
@@ -183,7 +183,7 @@
             </div>
           </div>
 
-          <div>
+          <div class="border-2 border-green-500 p-2">
             <h5 class="font-mono">place-self-stretch</h5>
             <div class="grid h-48 grid-cols-3 gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
