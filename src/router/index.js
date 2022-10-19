@@ -1095,7 +1095,8 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = `TW | ${to.params.state ? `${to.params.city}` : to.meta.title}`
+  // document.title = `TW | ${to.params.state ? `${to.params.city}` : to.meta.title}`
+  document.title = `${to.params.state ? `${to.params.city}` : to.meta.title}`
   next()
 })
 

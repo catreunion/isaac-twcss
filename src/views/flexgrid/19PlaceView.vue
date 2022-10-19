@@ -86,7 +86,7 @@
         <h1>Place Items</h1>
         <h2>control how items are justified and aligned at the same time</h2>
         <h3 class="font-mono">place-items-{p}</h3>
-        <h4 class="font-mono">start|end|center|stretch</h4>
+        <h4 class="font-mono">start|center|end|stretch</h4>
 
         <div class="grid-col-1 grid gap-3 py-3">
           <div>
@@ -101,9 +101,9 @@
             </div>
           </div>
 
-          <div>
-            <h5 class="font-mono">place-items-end</h5>
-            <div class="grid h-48 grid-cols-3 place-items-end gap-2 border-2 border-pink-500">
+          <div class="border-2 border-green-500 p-2">
+            <h5 class="font-mono">place-items-center</h5>
+            <div class="grid h-48 grid-cols-3 place-items-center gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
               <div class="border-2 border-indigo-500 p-2">Edit</div>
               <div class="border-2 border-indigo-500 p-2">View</div>
@@ -113,9 +113,9 @@
             </div>
           </div>
 
-          <div class="border-2 border-green-500 p-2">
-            <h5 class="font-mono">place-items-center</h5>
-            <div class="grid h-48 grid-cols-3 place-items-center gap-2 border-2 border-pink-500">
+          <div>
+            <h5 class="font-mono">place-items-end</h5>
+            <div class="grid h-48 grid-cols-3 place-items-end gap-2 border-2 border-pink-500">
               <div class="border-2 border-indigo-500 p-2">File</div>
               <div class="border-2 border-indigo-500 p-2">Edit</div>
               <div class="border-2 border-indigo-500 p-2">View</div>

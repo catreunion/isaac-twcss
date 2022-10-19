@@ -3,7 +3,7 @@
     <h1>Justify Items</h1>
     <h2>control how grid items are aligned along their inline x axis</h2>
     <h3 class="font-mono">justify-items-{x}</h3>
-    <h4 class="font-mono">start|end|center|stretch</h4>
+    <h4 class="font-mono">start|center|end|stretch</h4>
 
     <div class="grid-col-1 grid gap-6 py-6">
       <div>
@@ -18,9 +18,9 @@
       </div>
 
       <div>
-        <h5 class="font-mono">justify-items-end</h5>
-        <p>align grid items at the end of their inline x axis</p>
-        <div class="grid grid-cols-3 justify-items-end border-2 border-pink-500">
+        <h5 class="font-mono">justify-items-center</h5>
+        <p>align grid items at the center of their inline x axis</p>
+        <div class="grid grid-cols-3 justify-items-center border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
           <div class="border-2 border-indigo-500 p-2">View</div>
@@ -29,9 +29,9 @@
       </div>
 
       <div>
-        <h5 class="font-mono">justify-items-center</h5>
-        <p>align grid items at the center of their inline x axis</p>
-        <div class="grid grid-cols-3 justify-items-center border-2 border-pink-500">
+        <h5 class="font-mono">justify-items-end</h5>
+        <p>align grid items at the end of their inline x axis</p>
+        <div class="grid grid-cols-3 justify-items-end border-2 border-pink-500">
           <div class="border-2 border-indigo-500 p-2">File</div>
           <div class="border-2 border-indigo-500 p-2">Edit</div>
           <div class="border-2 border-indigo-500 p-2">View</div>
