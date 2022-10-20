@@ -9,28 +9,28 @@
         <div class="grid-col-1 grid gap-3 py-3">
           <div>
             <h3 class="font-mono">rounded-{t|r|b|l}-{size}</h3>
-            <div class="grid grid-cols-2 justify-items-center gap-2 border-2 border-pink-500">
-              <button class="rounded-t-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-r-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-b-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-l-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-none bg-orange-500 p-2">Click me</button>
-              <button class="rounded-full bg-orange-500 p-2">Click me</button>
+            <div class="grid w-72 grid-cols-2 justify-items-center gap-2 border-2 border-pink-500 p-2">
+              <button class="rounded-t-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-r-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-b-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-l-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-none bg-indigo-200 p-2">Send</button>
+              <button class="rounded-full bg-indigo-200 p-2">Send</button>
             </div>
           </div>
 
           <div>
             <h3 class="font-mono">rounded-{tl|tr|br|bl}-{size}</h3>
-            <div class="grid grid-cols-2 justify-items-center gap-2 border-2 border-pink-500">
-              <button class="rounded-tl-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-tr-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-bl-2xl bg-orange-500 p-2">Click me</button>
-              <button class="rounded-br-2xl bg-orange-500 p-2">Click me</button>
+            <div class="grid w-72 grid-cols-2 justify-items-center gap-2 border-2 border-pink-500 p-2">
+              <button class="rounded-tl-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-tr-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-bl-2xl bg-indigo-200 p-2">Send</button>
+              <button class="rounded-br-2xl bg-indigo-200 p-2">Send</button>
             </div>
           </div>
 
-          <div class="flex justify-center border-2 border-pink-500">
-            <button class="rounded-[12px] bg-orange-500 p-2">Click me</button>
+          <div class="flex w-72 justify-center border-2 border-pink-500 p-2">
+            <button class="rounded-[12px] bg-indigo-200 p-2">Send</button>
           </div>
         </div>
       </div>
@@ -43,21 +43,27 @@
         <div class="grid-col-1 grid gap-3 py-3">
           <div>
             <h3 class="font-mono">border-{size}</h3>
-            <div class="w-40 border-2 border-indigo-500 p-2">A box</div>
+            <div class="w-72 border-2 border-pink-500 p-2">
+              <div class="border-2 border-indigo-500 p-2">Box 1</div>
+            </div>
           </div>
 
           <div>
             <h3 class="font-mono">border-{x|y}-{size}</h3>
-            <div class="w-40 border-x-2 border-indigo-500 p-2">A box</div>
-            <div class="w-40 border-y-2 border-indigo-500 p-2">A box</div>
+            <div class="grid w-72 grid-cols-2 justify-items-center gap-2 border-2 border-pink-500 p-2">
+              <div class="border-x-2 border-indigo-500 p-2">Box 1</div>
+              <div class="border-y-2 border-indigo-500 p-2">Box 2</div>
+            </div>
           </div>
 
           <div>
             <h3 class="font-mono">border-{t|r|b|l}-{size}</h3>
-            <div class="w-40 border-t-2 border-indigo-500">A box</div>
-            <div class="w-40 border-r-2 border-indigo-500">A box</div>
-            <div class="w-40 border-b-2 border-indigo-500">A box</div>
-            <div class="w-40 border-l-2 border-indigo-500">A box</div>
+            <div class="grid w-72 grid-cols-4 justify-items-center gap-2 border-2 border-pink-500 p-2">
+              <div class="border-t-2 border-indigo-500 p-2">Box 1</div>
+              <div class="border-r-2 border-indigo-500 p-2">Box 2</div>
+              <div class="border-b-2 border-indigo-500 p-2">Box 3</div>
+              <div class="border-l-2 border-indigo-500 p-2">Box 4</div>
+            </div>
           </div>
 
           <div>
@@ -71,7 +77,7 @@
             </div>
           </div>
 
-          <div class="border-l-[10px]">A box</div>
+          <div class="border-l-[10px]">Box 1</div>
         </div>
       </div>
 
