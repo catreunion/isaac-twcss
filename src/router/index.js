@@ -379,14 +379,6 @@ const router = createRouter({
       },
     },
     {
-      path: '/sizing/height',
-      name: 'heightView',
-      component: () => import('@/views/sizing/04HeightView.vue'),
-      meta: {
-        title: 'Height',
-      },
-    },
-    {
       path: '/sizing/minheight',
       name: 'minheightView',
       component: () => import('@/views/sizing/05MinHeightView.vue'),
