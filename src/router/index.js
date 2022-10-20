@@ -289,59 +289,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/flexgrid/flexbrow',
-      name: 'flexbrowView',
-      component: () => import('@/views/flexgrid/05FlexGrowView.vue'),
+      path: '/flexgrid/grid',
+      name: 'gridView',
+      component: () => import('@/views/flexgrid/09Grid.vue'),
       meta: {
-        title: 'Flex Grow',
-      },
-    },
-    {
-      path: '/flexgrid/flexshrink',
-      name: 'flexshrinkView',
-      component: () => import('@/views/flexgrid/06FlexShrinkView.vue'),
-      meta: {
-        title: 'Flex Shrink',
-      },
-    },
-    {
-      path: '/flexgrid/order',
-      name: 'orderView',
-      component: () => import('@/views/flexgrid/07OrderView.vue'),
-      meta: {
-        title: 'Order',
-      },
-    },
-    {
-      path: '/flexgrid/gridcrse',
-      name: 'gridcrseView',
-      component: () => import('@/views/flexgrid/09GridColRowSEView.vue'),
-      meta: {
-        title: 'Grid Column/Row Start/End',
-      },
-    },
-    {
-      path: '/flexgrid/gridautoflow',
-      name: 'gridautoflowView',
-      component: () => import('@/views/flexgrid/12GridAutoFlowView.vue'),
-      meta: {
-        title: 'Grid Auto Flow',
-      },
-    },
-    {
-      path: '/flexgrid/gridautocolumns',
-      name: 'gridautocolumnsView',
-      component: () => import('@/views/flexgrid/13GridAutoColumnsView.vue'),
-      meta: {
-        title: 'Grid Auto Columns',
-      },
-    },
-    {
-      path: '/flexgrid/gridautorows',
-      name: 'gridautorowsView',
-      component: () => import('@/views/flexgrid/14GridAutoRowsView.vue'),
-      meta: {
-        title: 'Grid Auto Rows',
+        title: 'Grid',
       },
     },
     {

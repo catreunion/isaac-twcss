@@ -21,16 +21,7 @@
 <script setup>
 const items = [
   { name: 'Flex', href: '/flexgrid/flex' },
-  { name: 'Flex Direction 🆗', href: '/flexgrid/flexdirection' },
-  { name: 'Flex Wrap', href: '/flexgrid/flexwrap' },
-  { name: 'Flex 😼', href: '/flexgrid/flex' },
-  { name: 'Flex Grow', href: '/flexgrid/flexbrow' },
-  { name: 'Flex Shrink', href: '/flexgrid/flexshrink' },
-  { name: 'Order', href: '/flexgrid/order' },
-  { name: 'Grid Column/Row Start/End', href: '/flexgrid/gridcrse' },
-  { name: 'Grid Auto Flow', href: '/flexgrid/gridautoflow' },
-  { name: 'Grid Auto Columns', href: '/flexgrid/gridautocolumns' },
-  { name: 'Grid Auto Rows', href: '/flexgrid/gridautorows' },
+  { name: 'Grid', href: '/flexgrid/grid' },
   { name: 'Justify/Align Content', href: '/flexgrid/jacontent' },
   { name: 'Justify/Align Items', href: '/flexgrid/jaitems' },
   { name: 'Justify/Align Self', href: '/flexgrid/jaself' },

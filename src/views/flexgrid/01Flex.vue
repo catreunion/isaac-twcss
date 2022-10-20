@@ -157,7 +157,7 @@
         </div>
       </div>
 
-      <!-- Flex Shrink not completed -->
+      <!-- Flex Shrink -->
       <div>
         <h1>Flex Shrink</h1>
         <h2 class="font-mono">shrink|shrink-0</h2>
