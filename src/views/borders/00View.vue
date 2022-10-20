@@ -21,8 +21,6 @@
 <script setup>
 const items = [
   { name: 'Border Radius 😼', href: '/borders/bradius' },
-  { name: 'Border Width 😼', href: '/borders/bwidth' },
-  { name: 'Border Color 😼', href: '/borders/bcolor' },
   { name: 'Border Style 😼', href: '/borders/bstyle' },
   { name: 'Divide Width + Color 😼', href: '/borders/divwidthcolor' },
   { name: 'Divide Style', href: '/borders/divstyle' },

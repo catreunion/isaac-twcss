@@ -566,22 +566,6 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/bwidth',
-      name: 'bwidthView',
-      component: () => import('@/views/borders/02BWidthView.vue'),
-      meta: {
-        title: 'Border Width',
-      },
-    },
-    {
-      path: '/borders/bcolor',
-      name: 'bcolorView',
-      component: () => import('@/views/borders/03BColorView.vue'),
-      meta: {
-        title: 'Border Color',
-      },
-    },
-    {
       path: '/borders/bstyle',
       name: 'bstyleView',
       component: () => import('@/views/borders/04BStyleView.vue'),
