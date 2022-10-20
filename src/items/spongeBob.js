@@ -1,8 +1,3 @@
-export const aboutPatrickShort = 'Patrick is an obese pink starfish'
-
-export const aboutPatrickStar =
-  "Patrick Star's most significant character trait is his low intelligence, which often gets him and his best friend, SpongeBob SquarePants, into trouble."
-
 export const spongeBob =
   'SpongeBob SquarePants (or simply SpongeBob) is an American animated comedy television series created by marine science educator and animator Stephen Hillenburg for Nickelodeon. It chronicles the adventures of the title character and his aquatic friends in the fictional underwater city of Bikini Bottom. The fifth-longest-running American animated series, its high popularity has made it a media franchise. It is the highest rated Nickelodeon series and the most profitable property for Paramount Consumer Products, generating over $13 billion in merchandising revenue as of 2019.'
 

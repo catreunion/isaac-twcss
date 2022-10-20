@@ -291,7 +291,7 @@ const router = createRouter({
     {
       path: '/flexgrid/grid',
       name: 'gridView',
-      component: () => import('@/views/flexgrid/09Grid.vue'),
+      component: () => import('@/views/flexgrid/02Grid.vue'),
       meta: {
         title: 'Grid',
       },
@@ -299,7 +299,7 @@ const router = createRouter({
     {
       path: '/flexgrid/jacontent',
       name: 'jacontentView',
-      component: () => import('@/views/flexgrid/16JAContentView.vue'),
+      component: () => import('@/views/flexgrid/03JAContentView.vue'),
       meta: {
         title: 'J/A Content',
       },
@@ -307,7 +307,7 @@ const router = createRouter({
     {
       path: '/flexgrid/jaitems',
       name: 'jaitemsView',
-      component: () => import('@/views/flexgrid/17JAItemsView.vue'),
+      component: () => import('@/views/flexgrid/04JAItemsView.vue'),
       meta: {
         title: 'J/A Items',
       },
@@ -315,7 +315,7 @@ const router = createRouter({
     {
       path: '/flexgrid/jaself',
       name: 'jaselfView',
-      component: () => import('@/views/flexgrid/18JASelfView.vue'),
+      component: () => import('@/views/flexgrid/05JASelfView.vue'),
       meta: {
         title: 'J/A Self',
       },
@@ -323,7 +323,7 @@ const router = createRouter({
     {
       path: '/flexgrid/place',
       name: 'placeView',
-      component: () => import('@/views/flexgrid/19PlaceView.vue'),
+      component: () => import('@/views/flexgrid/06PlaceView.vue'),
       meta: {
         title: 'Place',
       },
@@ -331,9 +331,9 @@ const router = createRouter({
     {
       path: '/flexgrid/summary',
       name: 'summaryView',
-      component: () => import('@/views/flexgrid/22SummaryView.vue'),
+      component: () => import('@/views/flexgrid/10SummaryView.vue'),
       meta: {
-        title: 'Summary',
+        title: 'Flexbox & Grid Summary',
       },
     },
     /////////////////////////////////////////////////// Spacing
@@ -352,46 +352,6 @@ const router = createRouter({
       component: () => import('@/views/sizing/00View.vue'),
       meta: {
         title: 'Sizing',
-      },
-    },
-    {
-      path: '/sizing/width',
-      name: 'widthView',
-      component: () => import('@/views/sizing/01WidthView.vue'),
-      meta: {
-        title: 'Width',
-      },
-    },
-    {
-      path: '/sizing/minwidth',
-      name: 'minwidthView',
-      component: () => import('@/views/sizing/02MinWidthView.vue'),
-      meta: {
-        title: 'Min-Width',
-      },
-    },
-    {
-      path: '/sizing/maxwidth',
-      name: 'maxwidthView',
-      component: () => import('@/views/sizing/03MaxWidthView.vue'),
-      meta: {
-        title: 'Max-Width',
-      },
-    },
-    {
-      path: '/sizing/minheight',
-      name: 'minheightView',
-      component: () => import('@/views/sizing/05MinHeightView.vue'),
-      meta: {
-        title: 'Min-Height',
-      },
-    },
-    {
-      path: '/sizing/maxheight',
-      name: 'maxheightView',
-      component: () => import('@/views/sizing/06MaxHeightView.vue'),
-      meta: {
-        title: 'Max-Height',
       },
     },
     /////////////////////////////////////////////////// Typography

@@ -258,5 +258,5 @@
 </template>
 
 <script setup>
-import { aboutPatrickShort, aboutPatrickStar } from '@/spongeBob'
+import { aboutPatrickShort, aboutPatrickStar } from '@/items/spongeBob'
 </script>
