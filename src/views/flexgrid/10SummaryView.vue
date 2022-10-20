@@ -1,6 +1,6 @@
 <template>
   <main class="w-96">
-    <div class="grid-col-1 grid gap-6 py-6">
+    <div class="grid grid-cols-1 gap-6 py-6">
       <!-- Grid Template Columns -->
       <div>
         <h1>Grid Template Columns</h1>
@@ -49,7 +49,7 @@
         <h2>control how columns are positioned along the container's x axis</h2>
         <h3 class="font-mono">justify-{x}</h3>
         <h4 class="font-mono">start|center|end|between|around|*evenly*</h4>
-        <div class="flex justify-evenly border-2 border-pink-500">
+        <div class="flex justify-evenly border-2 border-pink-500 p-2">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
@@ -63,7 +63,7 @@
         <h2>control how rows are positioned along the container's y axis</h2>
         <h3 class="font-mono">content-{y}</h3>
         <h4 class="font-mono">start|center|end|between|around|*evenly*</h4>
-        <div class="grid-col-1 grid h-56 content-evenly border-2 border-pink-500">
+        <div class="grid h-56 grid-cols-1 content-evenly border-2 border-pink-500 p-2">
           <div class="w-20 border-2 border-indigo-500 p-2">File</div>
           <div class="w-20 border-2 border-indigo-500 p-2">Edit</div>
           <div class="w-20 border-2 border-indigo-500 p-2">View</div>
