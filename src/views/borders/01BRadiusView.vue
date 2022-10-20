@@ -44,40 +44,40 @@
           <div>
             <h3 class="font-mono">border-{size}</h3>
             <div class="w-72 border-2 border-pink-500 p-2">
-              <div class="border-2 border-indigo-500 p-2">Box 1</div>
+              <button class="border-2 border-indigo-500 p-2">Send</button>
             </div>
           </div>
 
           <div>
             <h3 class="font-mono">border-{x|y}-{size}</h3>
             <div class="grid w-72 grid-cols-2 justify-items-center gap-2 border-2 border-pink-500 p-2">
-              <div class="border-x-2 border-indigo-500 p-2">Box 1</div>
-              <div class="border-y-2 border-indigo-500 p-2">Box 2</div>
+              <button class="border-x-2 border-indigo-500 p-2">Send</button>
+              <button class="border-y-2 border-indigo-500 p-2">Send</button>
             </div>
           </div>
 
           <div>
             <h3 class="font-mono">border-{t|r|b|l}-{size}</h3>
             <div class="grid w-72 grid-cols-4 justify-items-center gap-2 border-2 border-pink-500 p-2">
-              <div class="border-t-2 border-indigo-500 p-2">Box 1</div>
-              <div class="border-r-2 border-indigo-500 p-2">Box 2</div>
-              <div class="border-b-2 border-indigo-500 p-2">Box 3</div>
-              <div class="border-l-2 border-indigo-500 p-2">Box 4</div>
+              <button class="border-t-2 border-indigo-500 p-2">Send</button>
+              <button class="border-r-2 border-indigo-500 p-2">Send</button>
+              <button class="border-b-2 border-indigo-500 p-2">Send</button>
+              <button class="border-l-2 border-indigo-500 p-2">Send</button>
             </div>
           </div>
 
           <div>
             <p>add borders between child elements using</p>
             <h3 class="font-mono">divide-{x/y}-{width} and divide-{color}</h3>
-            <div class="flex w-96 divide-x-2 divide-indigo-500">
-              <div>Box 1</div>
-              <div>Box 2</div>
-              <div>Box 3</div>
-              <div>Box 4</div>
+            <div class="grid w-72 grid-rows-4 divide-y-2 divide-indigo-500 border-2 border-pink-500 p-2">
+              <button>Send</button>
+              <button>Send</button>
+              <button>Send</button>
+              <button>Send</button>
             </div>
           </div>
 
-          <div class="border-l-[10px]">Box 1</div>
+          <div class="border-l-[10px]">Send</div>
         </div>
       </div>
 
@@ -92,34 +92,31 @@
           <div>
             <h3 class="font-mono">border-inherit|current|transparent|black|white</h3>
             <h3 class="font-mono">border-{color}-{50|100|200|300|400|500|600|700|800|900}</h3>
-            <div class="grid grid-cols-4 justify-items-center border-2 border-pink-500">
-              <div class="w-20 border-2 border-indigo-500/100 p-2">Box 1</div>
-              <div class="w-20 border-2 border-indigo-500/75 p-2">Box 2</div>
-              <div class="w-20 border-2 border-indigo-500/50 p-2">Box 3</div>
-              <button class="w-20 border-2 border-indigo-500 hover:border-indigo-300">Send</button>
+            <div class="grid w-72 grid-cols-3 justify-items-center border-2 border-pink-500 p-2">
+              <button class="border-2 border-indigo-500/100 p-2">Send</button>
+              <button class="border-2 border-indigo-500/75 p-2">Send</button>
+              <button class="border-2 border-indigo-500/50 p-2">Send</button>
             </div>
           </div>
 
           <div>
             <h3 class="font-mono">border-{x|y}-inherit|current|transparent|black|white</h3>
             <h3 class="font-mono">border-{x|y}-{color}-{50|100|200|300|400|500|600|700|800|900}</h3>
-            <div class="grid grid-cols-2 justify-items-center border-2 border-pink-500">
-              <div class="w-20 border-2 border-x-indigo-500 p-2">Box 1</div>
-              <div class="w-20 border-2 border-y-indigo-500 p-2">Box 2</div>
+            <div class="grid w-72 grid-cols-2 justify-items-center border-2 border-pink-500 p-2">
+              <button class="border-2 border-x-indigo-500/100 p-2">Send</button>
+              <button class="border-2 border-indigo-500/50 p-2">Send</button>
             </div>
           </div>
 
-          <div></div>
-        </div>
-
-        <div>
-          <p class="font-mono">border-{t|r|b|l}-inherit|current|transparent|black, white</p>
-          <p class="font-mono">border-{t|r|b|l}-{color}-{50|100|200|300|400|500|600|700|800|900}</p>
-          <div class="grid grid-cols-2 justify-items-center border-2 border-pink-500">
-            <div class="w-20 border-2 border-t-indigo-500 p-2">Box 1</div>
-            <div class="w-20 border-2 border-r-indigo-500 p-2">Box 2</div>
-            <div class="w-20 border-2 border-b-indigo-500 p-2">Box 3</div>
-            <div class="w-20 border-2 border-l-indigo-500 p-2">Box 4</div>
+          <div>
+            <h3 class="font-mono">border-{t|r|b|l}-inherit|current|transparent|black|white</h3>
+            <h3 class="font-mono">border-{t|r|b|l}-{color}-{50|100|200|300|400|500|600|700|800|900}</h3>
+            <div class="grid w-96 grid-cols-4 justify-items-center border-2 border-pink-500 p-2">
+              <button class="border-2 border-t-indigo-500 p-2">Send</button>
+              <button class="border-2 border-r-indigo-500 p-2">Send</button>
+              <button class="border-2 border-b-indigo-500 p-2">Send</button>
+              <button class="border-2 border-l-indigo-500 p-2">Send</button>
+            </div>
           </div>
         </div>
       </div>
@@ -129,12 +126,12 @@
         <h1>Border Style</h1>
         <h2 class="font-mono">border-{style}</h2>
         <h3 class="font-mono">solid|dashed|dotted|double|hidden|none</h3>
-        <div class="grid grid-cols-5 justify-items-center border-2 border-pink-500">
-          <div class="w-20 border-2 border-solid border-indigo-500">Box 1</div>
-          <div class="w-20 border-2 border-dashed border-indigo-500">Box 2</div>
-          <div class="w-20 border-2 border-dotted border-indigo-500">Box 3</div>
-          <div class="w-20 border-4 border-double border-indigo-500">Box 4</div>
-          <button class="border-2 border-solid border-indigo-500 p-2 hover:border-dotted">Send</button>
+
+        <div class="grid w-96 grid-cols-4 justify-items-center border-2 border-pink-500 p-2">
+          <button class="border-2 border-solid border-indigo-500 p-2">Send</button>
+          <button class="border-2 border-dashed border-indigo-500 p-2">Send</button>
+          <button class="border-2 border-dotted border-indigo-500 p-2">Send</button>
+          <button class="border-4 border-double border-indigo-500 p-2">Send</button>
         </div>
       </div>
     </div>
