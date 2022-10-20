@@ -345,30 +345,6 @@ const router = createRouter({
         title: 'Spacing',
       },
     },
-    {
-      path: '/spacing/padding',
-      name: 'paddingView',
-      component: () => import('@/views/spacing/01PaddingView.vue'),
-      meta: {
-        title: 'Padding',
-      },
-    },
-    {
-      path: '/spacing/margin',
-      name: 'marginView',
-      component: () => import('@/views/spacing/02MarginView.vue'),
-      meta: {
-        title: 'Margin',
-      },
-    },
-    {
-      path: '/spacing/spacebetween',
-      name: 'spacebetweenView',
-      component: () => import('@/views/spacing/03SpaceBetweenView.vue'),
-      meta: {
-        title: 'Space Between',
-      },
-    },
     /////////////////////////////////////////////////// Sizing
     {
       path: '/sizing',
