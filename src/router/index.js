@@ -510,67 +510,11 @@ const router = createRouter({
       },
     },
     {
-      path: '/borders/bradius',
-      name: 'bradiusView',
-      component: () => import('@/views/borders/01BRadiusView.vue'),
+      path: '/borders/border',
+      name: 'borderView',
+      component: () => import('@/views/borders/01BorderView.vue'),
       meta: {
-        title: 'Border Radius',
-      },
-    },
-    {
-      path: '/borders/bstyle',
-      name: 'bstyleView',
-      component: () => import('@/views/borders/04BStyleView.vue'),
-      meta: {
-        title: 'Border Style',
-      },
-    },
-    {
-      path: '/borders/divwidthcolor',
-      name: 'divwidthcolorView',
-      component: () => import('@/views/borders/05DivWidthColorView.vue'),
-      meta: {
-        title: 'Divide Width + Color',
-      },
-    },
-    {
-      path: '/borders/divstyle',
-      name: 'divstyleView',
-      component: () => import('@/views/borders/07DivStyleView.vue'),
-      meta: {
-        title: 'Divide Style',
-      },
-    },
-    {
-      path: '/borders/outlinewidth',
-      name: 'outlinewidthView',
-      component: () => import('@/views/borders/08OutlineWidthView.vue'),
-      meta: {
-        title: 'Outline Width',
-      },
-    },
-    {
-      path: '/borders/outlinecolor',
-      name: 'outlinecolorView',
-      component: () => import('@/views/borders/09OutlineColorView.vue'),
-      meta: {
-        title: 'Outline Color',
-      },
-    },
-    {
-      path: '/borders/outlinestyle',
-      name: 'outlinestyleView',
-      component: () => import('@/views/borders/10OutlineStyleView.vue'),
-      meta: {
-        title: 'Outline Style',
-      },
-    },
-    {
-      path: '/borders/outlineoffset',
-      name: 'outlineoffsetView',
-      component: () => import('@/views/borders/11OutlineOffsetView.vue'),
-      meta: {
-        title: 'Outline Offset',
+        title: 'Border',
       },
     },
     {

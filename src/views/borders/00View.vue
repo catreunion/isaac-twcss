@@ -20,14 +20,7 @@
 
 <script setup>
 const items = [
-  { name: 'Border Radius 😼', href: '/borders/bradius' },
-  { name: 'Border Style 😼', href: '/borders/bstyle' },
-  { name: 'Divide Width + Color 😼', href: '/borders/divwidthcolor' },
-  { name: 'Divide Style', href: '/borders/divstyle' },
-  { name: 'Outline Width', href: '/borders/outlinewidth' },
-  { name: 'Outline Color', href: '/borders/outlinecolor' },
-  { name: 'Outline Style', href: '/borders/outlinestyle' },
-  { name: 'Outline Offset', href: '/borders/outlineoffset' },
+  { name: 'Border', href: '/borders/border' },
   { name: 'Ring Width', href: '/borders/ringwidth' },
   { name: 'Ring Color', href: '/borders/ringcolor' },
   { name: 'Ring Offset Width', href: '/borders/ringoffsetwidth' },
