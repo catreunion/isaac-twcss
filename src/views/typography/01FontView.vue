@@ -1,6 +1,6 @@
 <template>
   <main class="w-96">
-    <div class="grid-col-1s grid gap-6 py-6">
+    <div class="grid grid-cols-1 gap-6 py-6">
       <!-- Font Family -->
       <div>
         <h1>Font Family</h1>
@@ -19,12 +19,12 @@
         <h3 class="font-mono">xs|sm|base|lg|xl|</h3>
         <h3 class="font-mono">2xl|3xl|4xl|5xl|6xl|7xl|8xl|9xl</h3>
         <div class="grid grid-cols-1 gap-3 py-3">
-          <p class="text-xs">{{ aboutPatrickShort }}</p>
-          <p class="text-sm">{{ aboutPatrickShort }}</p>
-          <p class="text-base">{{ aboutPatrickShort }}</p>
-          <p class="text-lg">{{ aboutPatrickShort }}</p>
-          <p class="text-xl">{{ aboutPatrickShort }}</p>
-          <p class="text-[14px]">{{ aboutPatrickShort }}</p>
+          <p class="text-xs">xs : {{ aboutPatrickShort }}</p>
+          <p class="text-sm">sm : {{ aboutPatrickShort }}</p>
+          <p class="text-base">base : {{ aboutPatrickShort }}</p>
+          <p class="text-lg">lg : {{ aboutPatrickShort }}</p>
+          <p class="text-xl">xl : {{ aboutPatrickShort }}</p>
+          <p class="text-[14px]">14px : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -64,7 +64,7 @@
           <p class="font-bold">bold : {{ aboutPatrickShort }}</p>
           <p class="font-extrabold">extrabold : {{ aboutPatrickShort }}</p>
           <p class="font-black">black : {{ aboutPatrickShort }}</p>
-          <p class="font-[1100]">[1100] : {{ aboutPatrickShort }}</p>
+          <p class="font-[1100]">1100 : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -105,7 +105,7 @@
           <p class="text-justify leading-normal">normal : {{ aboutPatrickShort }}</p>
           <p class="text-justify leading-relaxed">relaxed : {{ aboutPatrickShort }}</p>
           <p class="text-justify leading-loose">loose : {{ aboutPatrickShort }}</p>
-          <p class="text-justify leading-[2rem]">[2rem] : {{ aboutPatrickShort }}</p>
+          <p class="text-justify leading-[2rem]">2rem : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -125,8 +125,9 @@
       <!-- Text Color -->
       <div>
         <h1>Text Color</h1>
-        <h2 class="font-mono">text-inherit|current|transparent|black|white</h2>
-        <h2 class="font-mono">text-{color}-{50|100|200|300|400|500|600|700|800|900}</h2>
+        <h2 class="font-mono">text-{color}</h2>
+        <h2 class="font-mono">inherit|current|transparent|black|white</h2>
+        <h2 class="font-mono">50|100|200|300|400|500|600|700|800|900</h2>
         <h3 class="font-mono">slate|gray|zinc|neutral|stone|red|</h3>
         <h3 class="font-mono">orange|amber|yellow|lime|green|emerald|</h3>
         <h3 class="font-mono">teal|cyan|sky|blue|indigo|violet|purple|</h3>
@@ -138,7 +139,7 @@
           <p class="text-indigo-500/50">50 : {{ aboutPatrickShort }}</p>
           <p class="text-indigo-500/25">25 : {{ aboutPatrickShort }}</p>
           <p class="text-indigo-500/0">0 : {{ aboutPatrickShort }}</p>
-          <p class="text-[#50d71e]">[#50d71e] : {{ aboutPatrickShort }}</p>
+          <p class="text-[#50d71e]">#50d71e : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -196,7 +197,7 @@
           <p class="underline decoration-2">2 : {{ aboutPatrickShort }}</p>
           <p class="underline decoration-4">4 : {{ aboutPatrickShort }}</p>
           <p class="underline decoration-8">8 : {{ aboutPatrickShort }}</p>
-          <p class="underline decoration-[3px]">[3px] : {{ aboutPatrickShort }}</p>
+          <p class="underline decoration-[3px]">3px : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -212,7 +213,7 @@
           <p class="underline underline-offset-2">2 : {{ aboutPatrickShort }}</p>
           <p class="underline underline-offset-4">4 : {{ aboutPatrickShort }}</p>
           <p class="underline underline-offset-8">8 : {{ aboutPatrickShort }}</p>
-          <p class="underline underline-offset-[3px]">[3px] : {{ aboutPatrickShort }}</p>
+          <p class="underline underline-offset-[3px]">3px : {{ aboutPatrickShort }}</p>
         </div>
       </div>
 
@@ -229,35 +230,34 @@
       </div>
 
       <!-- Text Overflow -->
-      <div class="w-96">
+      <div>
         <h1>Text Overflow</h1>
         <h2 class="font-mono">truncate|text-ellipsis|text-clip</h2>
         <div class="grid grid-cols-1 gap-3 py-3">
-          <p class="truncate">truncate : {{ aboutPatrickShort }}</p>
-          <p class="overflow-hidden text-ellipsis">text-ellipsis : {{ aboutPatrickShort }}</p>
-          <p class="overflow-hidden text-clip">text-clip : {{ aboutPatrickShort }}</p>
+          <p class="truncate">{{ aboutPatrickShort }}</p>
+          <p class="overflow-hidden text-ellipsis">{{ aboutPatrickShort }}</p>
+          <p class="overflow-hidden text-clip">{{ aboutPatrickShort }}</p>
         </div>
       </div>
 
       <!-- Text Indent -->
-      <div class="border-2 border-pink-500">
+      <div>
         <h1>Text Indent</h1>
         <h2 class="font-mono">indent-{width}</h2>
         <h3 class="font-mono">0|px|0.5|1|1.5|2|2.5|3|3.5|</h3>
         <h3 class="font-mono">4|5|6|7|8|9|10|11|12|14|16|</h3>
         <h3 class="font-mono">20|24|28|32|36|40|44|48|52|56|</h3>
         <h3 class="font-mono">60|64|72|80|96</h3>
-        <p class="indent-8">{{ aboutPatrickShort }}</p>
-        <p class="indent-[20%]">{{ aboutPatrickShort }}</p>
+        <p class="indent-8">8 : {{ aboutPatrickShort }}</p>
+        <p class="indent-[20%]">20% : {{ aboutPatrickShort }}</p>
       </div>
 
       <!-- Vertical Align -->
       <div>
         <h1>Vertical Align</h1>
-        <h2 class="font-mono">set the vertical alignment of an inline or table-cell box</h2>
-        <h3 class="font-mono">align-{alignment}</h3>
-        <h4 class="font-mono">baseline|top|middle|bottom|</h4>
-        <h4 class="font-mono">text-top|text-bottom|sub|super</h4>
+        <h2 class="font-mono">align-{alignment}</h2>
+        <h3 class="font-mono">baseline|top|middle|bottom|</h3>
+        <h3 class="font-mono">text-top|text-bottom|sub|super</h3>
         <span class="inline-block h-20 border-2 border-indigo-500 align-baseline">
           align-baseline : align the baseline of an element with the baseline of its parent
         </span>
