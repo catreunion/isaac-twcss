@@ -126,16 +126,16 @@
         <h3 class="font-mono">full|min|max|fit|prose|screen-sm|screen-md|</h3>
         <h3 class="font-mono">screen-lg|screen-xl|screen-2xl</h3>
 
-        <div class="max-w-prose text-sm">{{ patrickStar }}</div>
-        <div class="max-w-prose text-base">{{ patrickStar }}</div>
-        <div class="max-w-prose text-xl">{{ patrickStar }}</div>
-        <div class="max-w-screen-2xl">{{ patrickStar }}</div>
-        <div class="max-w-[50%]">{{ patrickStar }}</div>
+        <div class="max-w-prose text-sm">{{ aboutPatrickShort }}</div>
+        <div class="max-w-prose text-base">{{ aboutPatrickShort }}</div>
+        <div class="max-w-prose text-xl">{{ aboutPatrickShort }}</div>
+        <div class="max-w-screen-2xl">{{ aboutPatrickShort }}</div>
+        <div class="max-w-[50%]">{{ aboutPatrickShort }}</div>
       </div>
     </div>
   </main>
 </template>
 
 <script setup>
-import { patrickStar } from '@/items/spongeBob'
+import { aboutPatrickShort } from '@/items/spongeBob'
 </script>
