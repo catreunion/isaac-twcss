@@ -1,7 +1,10 @@
 export const spongeBob =
   'SpongeBob SquarePants (or simply SpongeBob) is an American animated comedy television series created by marine science educator and animator Stephen Hillenburg for Nickelodeon. It chronicles the adventures of the title character and his aquatic friends in the fictional underwater city of Bikini Bottom. The fifth-longest-running American animated series, its high popularity has made it a media franchise. It is the highest rated Nickelodeon series and the most profitable property for Paramount Consumer Products, generating over $13 billion in merchandising revenue as of 2019.'
 
-export const patrickStar =
+export const aboutPatrickShort =
+  "Patrick Star is unemployed and a self-proclaimed expert in the 'art of doing nothing'."
+
+export const aboutPatrickStar =
   "Patrick Star first appeared in the series' pilot episode 'Help Wanted' on May 1, 1999. An obese pink starfish, Patrick lives under a rock in the underwater city of Bikini Bottom next door to Squidward Tentacles' moai. His most significant character trait is his low intelligence, which often gets him and his best friend, SpongeBob SquarePants, into trouble. Patrick is unemployed and a self-proclaimed expert in the 'art of doing nothing'."
 
 export const sandyCheeks =
