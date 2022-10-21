@@ -283,5 +283,5 @@
 </template>
 
 <script setup>
-import { aboutPatrickShort, aboutPatrickStar } from '@/items/spongeBob'
+import { aboutPatrickShort } from '@/items/spongeBob'
 </script>
